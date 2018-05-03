@@ -1,0 +1,11 @@
+framework module winguSDKContent {
+  umbrella header "winguSDKContent.h"
+
+  export *
+  module * { export * }
+}
+
+module winguSDKContent.Swift {
+    header "winguSDKContent-Swift.h"
+    requires objc
+}

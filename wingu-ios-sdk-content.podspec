@@ -8,19 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name         = "wingu-ios-sdk-content"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "Content part of wingu iOS SDK"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-  Content part of wingu iOS SDK. Visit www.wingu.de to know more.
-                   DESC
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+Content part of wingu iOS SDK. Visit www.wingu.de to know more.
+                    DESC
 
   s.homepage     = "https://github.com/wingu-GmbH/wingu-ios-sdk-content"
+ # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license         = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Jakub Mazur' => 'jakub.mazur@wingu.de', 'Mateusz Staruchowicz' => 'mateusz.staruchowicz@wingu.de' }
   s.source           = { :git => 'https://github.com/wingu-GmbH/wingu-ios-sdk-essentials.git', :tag => s.version.to_s }

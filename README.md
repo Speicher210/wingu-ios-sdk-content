@@ -1,6 +1,5 @@
 # wingu-ios-sdk-content
 
-[![CI Status](https://img.shields.io/travis/JakubMazur/wingu-ios-sdk-content.svg?style=flat)](https://travis-ci.org/JakubMazur/wingu-ios-sdk-content)
 [![Version](https://img.shields.io/cocoapods/v/wingu-ios-sdk-content.svg?style=flat)](https://cocoapods.org/pods/wingu-ios-sdk-content)
 [![License](https://img.shields.io/cocoapods/l/wingu-ios-sdk-content.svg?style=flat)](https://cocoapods.org/pods/wingu-ios-sdk-content)
 [![Platform](https://img.shields.io/cocoapods/p/wingu-ios-sdk-content.svg?style=flat)](https://cocoapods.org/pods/wingu-ios-sdk-content)

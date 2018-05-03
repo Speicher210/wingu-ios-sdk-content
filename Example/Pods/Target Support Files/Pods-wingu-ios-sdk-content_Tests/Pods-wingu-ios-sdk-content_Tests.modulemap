@@ -1,0 +1,6 @@
+framework module Pods_wingu_ios_sdk_content_Tests {
+  umbrella header "Pods-wingu-ios-sdk-content_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

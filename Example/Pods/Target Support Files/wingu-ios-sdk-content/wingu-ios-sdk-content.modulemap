@@ -1,0 +1,6 @@
+framework module wingu_ios_sdk_content {
+  umbrella header "wingu-ios-sdk-content-umbrella.h"
+
+  export *
+  module * { export * }
+}

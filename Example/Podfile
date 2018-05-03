@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wingu-ios-sdk-content_Example' do
+  pod 'wingu-ios-sdk-content', :path => '../'
+
+  target 'wingu-ios-sdk-content_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

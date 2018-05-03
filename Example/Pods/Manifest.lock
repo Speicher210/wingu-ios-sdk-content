@@ -1,0 +1,16 @@
+PODS:
+  - wingu-ios-sdk-content (0.1.0)
+
+DEPENDENCIES:
+  - wingu-ios-sdk-content (from `../`)
+
+EXTERNAL SOURCES:
+  wingu-ios-sdk-content:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wingu-ios-sdk-content: 83949e64d72dba64b89170f5ed11fd81a9153738
+
+PODFILE CHECKSUM: cd2969bf7841d9af93e3aa262e9ecbb5cbe677c3
+
+COCOAPODS: 1.5.0

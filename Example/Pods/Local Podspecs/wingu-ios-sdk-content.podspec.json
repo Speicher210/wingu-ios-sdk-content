@@ -1,0 +1,22 @@
+{
+  "name": "wingu-ios-sdk-content",
+  "version": "0.1.0",
+  "summary": "A short description of wingu-ios-sdk-content.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JakubMazur/wingu-ios-sdk-content",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JakubMazur": "jakub.mazur@wingu.de"
+  },
+  "source": {
+    "git": "https://github.com/JakubMazur/wingu-ios-sdk-content.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "wingu-ios-sdk-content/Classes/**/*"
+}

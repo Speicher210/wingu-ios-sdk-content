@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "wingu-ios-sdk-content"
-  s.version      = "0.1.3"              #sh_replace_version
+  s.version          = '0.1.5'                  #sh_replace_version
   s.summary      = "Content part of wingu iOS SDK"
 
 # This description is used to generate tags and improve search results.
@@ -35,3 +35,4 @@ Content part of wingu iOS SDK. Visit www.wingu.de to know more.
   s.dependency 'wingu-ios-sdk-essentials'
 
 end
+

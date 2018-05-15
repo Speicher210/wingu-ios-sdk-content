@@ -7,6 +7,7 @@
 #
 
 Pod::Spec.new do |s|
+  s.swift_version = "4.0"
   s.name         = "wingu-ios-sdk-content"
   s.version      = "0.1.3"              #sh_replace_version
   s.summary      = "Content part of wingu iOS SDK"
@@ -33,5 +34,6 @@ Content part of wingu iOS SDK. Visit www.wingu.de to know more.
   s.source_files = 'winguSDKContent.framework/Headers/*'
   s.vendored_frameworks = 'winguSDKContent.framework'
   s.dependency 'wingu-ios-sdk-essentials'
+  s.dependency 'WinguGallery'
 
 end

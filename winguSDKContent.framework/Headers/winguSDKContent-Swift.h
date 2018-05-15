@@ -285,6 +285,15 @@ SWIFT_CLASS("_TtC15winguSDKContent17FileComponentView")
 
 
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC15winguSDKContent21GalleryViewController")
+@interface GalleryViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 

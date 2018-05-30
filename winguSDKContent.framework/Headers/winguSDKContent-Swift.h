@@ -254,6 +254,8 @@ SWIFT_CLASS("_TtC15winguSDKContent11BasicStyles")
 
 
 
+
+
 SWIFT_CLASS("_TtC15winguSDKContent22ContactSocialMediaView")
 @interface ContactSocialMediaView : WinguNibLoadingView
 - (void)layoutSubviews;

@@ -167,6 +167,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import CoreGraphics;
 @import ObjectiveC;
+@import WebKit;
 @import Foundation;
 #endif
 
@@ -251,19 +252,35 @@ SWIFT_CLASS("_TtC15winguSDKContent11BasicStyles")
 
 
 
+SWIFT_CLASS("_TtC15winguSDKContent31ContactComponentSocialMediaView")
+@interface ContactComponentSocialMediaView : WinguNibLoadingView
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 
 
 SWIFT_CLASS("_TtC15winguSDKContent19CouponComponentView")
 @interface CouponComponentView : BaseComponentView
+- (void)drawRect:(CGRect)rect;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+
+
+
+
+
+
 SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 @interface DeckView : UIView
+- (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -328,6 +345,20 @@ SWIFT_CLASS("_TtC15winguSDKContent25SurveyMonkeyComponentView")
 
 
 
+
+
+
+
+SWIFT_CLASS("_TtC15winguSDKContent17WebViewController")
+@interface WebViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface WebViewController (SWIFT_EXTENSION(winguSDKContent)) <WKNavigationDelegate>
+@end
 
 
 

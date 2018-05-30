@@ -1464,51 +1464,51 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 11,
       "symbol": "SocialMediaType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 12,
       "symbol": "SocialMediaType.facebook",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 13,
       "symbol": "SocialMediaType.twitter",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 14,
       "symbol": "SocialMediaType.yelp",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 15,
       "symbol": "SocialMediaType.googlePlus",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 18,
-      "symbol": "ContactComponentSocialMediaView",
+      "symbol": "ContactSocialMediaView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactComponentSocialMediaView.swift",
+      "file": "/Users/jakubmazur/Desktop/scripts/_build/winguSDKContent/winguSDKContent/Views/Components/Contact/ContactSocialMediaView.swift",
       "line": 24,
-      "symbol": "ContactComponentSocialMediaView.layoutSubviews()",
+      "symbol": "ContactSocialMediaView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },

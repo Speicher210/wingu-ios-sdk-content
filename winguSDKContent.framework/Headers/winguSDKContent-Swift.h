@@ -252,14 +252,14 @@ SWIFT_CLASS("_TtC15winguSDKContent11BasicStyles")
 
 
 
-SWIFT_CLASS("_TtC15winguSDKContent31ContactComponentSocialMediaView")
-@interface ContactComponentSocialMediaView : WinguNibLoadingView
+
+
+SWIFT_CLASS("_TtC15winguSDKContent22ContactSocialMediaView")
+@interface ContactSocialMediaView : WinguNibLoadingView
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 

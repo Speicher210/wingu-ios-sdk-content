@@ -1,0 +1,1531 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Extensions/UIColor+Extension.swift",
+      "line": 13,
+      "symbol": "UIColor.color(from:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Extensions/UIColor+Extension.swift",
+      "line": 29,
+      "symbol": "UIColor.color(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 7,
+      "symbol": "ActionComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 12,
+      "symbol": "AudioPlaylistComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 17,
+      "symbol": "CMSComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 22,
+      "symbol": "ContactComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 27,
+      "symbol": "CouponComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 32,
+      "symbol": "FileComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 37,
+      "symbol": "FontComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 42,
+      "symbol": "GalleryComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 47,
+      "symbol": "LocationComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 52,
+      "symbol": "MarkdownComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 57,
+      "symbol": "RatingComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 62,
+      "symbol": "SeparatorComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 67,
+      "symbol": "SurveyMonkeyComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 72,
+      "symbol": "VideoComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 77,
+      "symbol": "WebhookComponentComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 82,
+      "symbol": "WinguButtonComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Generated/AutoComposition.generated.swift",
+      "line": 87,
+      "symbol": "WinguComposition.defaultComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/Markdown.swift",
+      "line": 20,
+      "symbol": "FontProperties",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/Markdown.swift",
+      "line": 21,
+      "symbol": "FontProperties.fontName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/Markdown.swift",
+      "line": 22,
+      "symbol": "FontProperties.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/Markdown.swift",
+      "line": 23,
+      "symbol": "FontProperties.fontSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": null,
+      "symbol": "YouTubePlayerDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 13,
+      "symbol": "YouTubePlayerState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 14,
+      "symbol": "YouTubePlayerState.Unstarted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 15,
+      "symbol": "YouTubePlayerState.Ended",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 16,
+      "symbol": "YouTubePlayerState.Playing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 17,
+      "symbol": "YouTubePlayerState.Paused",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 18,
+      "symbol": "YouTubePlayerState.Buffering",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 19,
+      "symbol": "YouTubePlayerState.Queued",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 22,
+      "symbol": "YouTubePlayerEvents",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 23,
+      "symbol": "YouTubePlayerEvents.YouTubeIframeAPIReady",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 24,
+      "symbol": "YouTubePlayerEvents.Ready",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 25,
+      "symbol": "YouTubePlayerEvents.StateChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 26,
+      "symbol": "YouTubePlayerEvents.PlaybackQualityChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 29,
+      "symbol": "YouTubePlaybackQuality",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 30,
+      "symbol": "YouTubePlaybackQuality.Small",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 31,
+      "symbol": "YouTubePlaybackQuality.Medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 32,
+      "symbol": "YouTubePlaybackQuality.Large",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 33,
+      "symbol": "YouTubePlaybackQuality.HD720",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 34,
+      "symbol": "YouTubePlaybackQuality.HD1080",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 35,
+      "symbol": "YouTubePlaybackQuality.HighResolution",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 38,
+      "symbol": "YouTubePlayerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 39,
+      "symbol": "YouTubePlayerDelegate.playerReady(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 40,
+      "symbol": "YouTubePlayerDelegate.playerStateChanged(_:playerState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 41,
+      "symbol": "YouTubePlayerDelegate.playerQualityChanged(_:playbackQuality:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 47,
+      "symbol": "YouTubePlayerDelegate.playerReady(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 48,
+      "symbol": "YouTubePlayerDelegate.playerStateChanged(_:playerState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 49,
+      "symbol": "YouTubePlayerDelegate.playerQualityChanged(_:playbackQuality:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 77,
+      "symbol": "videoIDFromYouTubeURL(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 89,
+      "symbol": "YouTubePlayerView.YouTubePlayerParameters",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 90,
+      "symbol": "YouTubePlayerView.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 112,
+      "symbol": "YouTubePlayerView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 117,
+      "symbol": "YouTubePlayerView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 122,
+      "symbol": "YouTubePlayerView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 147,
+      "symbol": "YouTubePlayerView.loadVideoURL(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 153,
+      "symbol": "YouTubePlayerView.loadVideoID(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 160,
+      "symbol": "YouTubePlayerView.loadPlaylistID(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 171,
+      "symbol": "YouTubePlayerView.mute()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 175,
+      "symbol": "YouTubePlayerView.unMute()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 179,
+      "symbol": "YouTubePlayerView.play()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 183,
+      "symbol": "YouTubePlayerView.pause()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 187,
+      "symbol": "YouTubePlayerView.stop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 191,
+      "symbol": "YouTubePlayerView.clear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 195,
+      "symbol": "YouTubePlayerView.seekTo(_:seekAhead:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 199,
+      "symbol": "YouTubePlayerView.getDuration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 203,
+      "symbol": "YouTubePlayerView.getCurrentTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 209,
+      "symbol": "YouTubePlayerView.previousVideo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 213,
+      "symbol": "YouTubePlayerView.nextVideo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/3rdParty/YoutubePlayer.swift",
+      "line": 346,
+      "symbol": "YouTubePlayerView.webView(_:shouldStartLoadWith:navigationType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ActionComponentComposition.swift",
+      "line": null,
+      "symbol": "ActionComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ActionComponentComposition.swift",
+      "line": 11,
+      "symbol": "ActionComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ActionComponentComposition.swift",
+      "line": 12,
+      "symbol": "ActionComponentComposition.button",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": null,
+      "symbol": "AudioPlaylistComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 11,
+      "symbol": "AudioPlaylistComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 12,
+      "symbol": "AudioPlaylistComponentComposition.progressTimesFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 13,
+      "symbol": "AudioPlaylistComponentComposition.progressViewBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 14,
+      "symbol": "AudioPlaylistComponentComposition.progressViewTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 15,
+      "symbol": "AudioPlaylistComponentComposition.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 16,
+      "symbol": "AudioPlaylistComponentComposition.subtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 17,
+      "symbol": "AudioPlaylistComponentComposition.playlistTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 18,
+      "symbol": "AudioPlaylistComponentComposition.playlistSubtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 19,
+      "symbol": "AudioPlaylistComponentComposition.playlistDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 20,
+      "symbol": "AudioPlaylistComponentComposition.playlistTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 21,
+      "symbol": "AudioPlaylistComponentComposition.playlistNormalColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 23,
+      "symbol": "AudioPlaylistComponentComposition.markdownTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/AudioPlaylistComponentComposition.swift",
+      "line": 30,
+      "symbol": "AudioPlaylistComponentComposition.markdownPlaylist",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CMSComponentComposition.swift",
+      "line": null,
+      "symbol": "CMSComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CMSComponentComposition.swift",
+      "line": 11,
+      "symbol": "CMSComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CMSComponentComposition.swift",
+      "line": 12,
+      "symbol": "CMSComponentComposition.markdownComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": null,
+      "symbol": "ContactComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 11,
+      "symbol": "ContactComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 12,
+      "symbol": "ContactComponentComposition.headerAddress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 13,
+      "symbol": "ContactComponentComposition.headerOpeningHours",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 14,
+      "symbol": "ContactComponentComposition.headerMobilePhone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 15,
+      "symbol": "ContactComponentComposition.headerPhone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 16,
+      "symbol": "ContactComponentComposition.headerEmail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 17,
+      "symbol": "ContactComponentComposition.headerWebsite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 18,
+      "symbol": "ContactComponentComposition.headerExtraInformation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 20,
+      "symbol": "ContactComponentComposition.fontSectionHeader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 21,
+      "symbol": "ContactComponentComposition.fontBody",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 22,
+      "symbol": "ContactComponentComposition.fontTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 23,
+      "symbol": "ContactComponentComposition.fontSubtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 24,
+      "symbol": "ContactComponentComposition.fontLink",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 26,
+      "symbol": "ContactComponentComposition.markdownComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/ContactComponentComposition.swift",
+      "line": 36,
+      "symbol": "ContactComponentComposition.saveButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": null,
+      "symbol": "CouponComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": 11,
+      "symbol": "CouponComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": 12,
+      "symbol": "CouponComponentComposition.headerFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": 13,
+      "symbol": "CouponComponentComposition.textFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": 14,
+      "symbol": "CouponComponentComposition.disclaimerFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/CouponComponentComposition.swift",
+      "line": 15,
+      "symbol": "CouponComponentComposition.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/FileComponentComposition.swift",
+      "line": null,
+      "symbol": "FileComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/FileComponentComposition.swift",
+      "line": 11,
+      "symbol": "FileComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/FileComponentComposition.swift",
+      "line": 12,
+      "symbol": "FileComponentComposition.fileNameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/GalleryComponentComposition.swift",
+      "line": null,
+      "symbol": "GalleryComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/GalleryComponentComposition.swift",
+      "line": 11,
+      "symbol": "GalleryComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/GalleryComponentComposition.swift",
+      "line": 12,
+      "symbol": "GalleryComponentComposition.pageControlTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/LocationComponentComposition.swift",
+      "line": null,
+      "symbol": "LocationComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/LocationComponentComposition.swift",
+      "line": 11,
+      "symbol": "LocationComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/LocationComponentComposition.swift",
+      "line": 12,
+      "symbol": "LocationComponentComposition.overlayColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": null,
+      "symbol": "RatingComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 11,
+      "symbol": "RatingComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 12,
+      "symbol": "RatingComponentComposition.titleFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 13,
+      "symbol": "RatingComponentComposition.titleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 14,
+      "symbol": "RatingComponentComposition.selectionTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 15,
+      "symbol": "RatingComponentComposition.selectionUnselectedColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 16,
+      "symbol": "RatingComponentComposition.selectionImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/RatingComponentComposition.swift",
+      "line": 17,
+      "symbol": "RatingComponentComposition.button",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SeparatorComponentComposition.swift",
+      "line": null,
+      "symbol": "SeparatorComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SeparatorComponentComposition.swift",
+      "line": 11,
+      "symbol": "SeparatorComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SeparatorComponentComposition.swift",
+      "line": 12,
+      "symbol": "SeparatorComponentComposition.lineWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SeparatorComponentComposition.swift",
+      "line": 13,
+      "symbol": "SeparatorComponentComposition.shouldRoundEdges",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": null,
+      "symbol": "SurveyMonkeyComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 11,
+      "symbol": "SurveyMonkeyComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 12,
+      "symbol": "SurveyMonkeyComponentComposition.descriptionFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 13,
+      "symbol": "SurveyMonkeyComponentComposition.descriptionTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 14,
+      "symbol": "SurveyMonkeyComponentComposition.shouldRoundButtonCorners",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 15,
+      "symbol": "SurveyMonkeyComponentComposition.footerFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 16,
+      "symbol": "SurveyMonkeyComponentComposition.footerColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 17,
+      "symbol": "SurveyMonkeyComponentComposition.footerText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/SurveyMonkeyComponentComposition.swift",
+      "line": 19,
+      "symbol": "SurveyMonkeyComponentComposition.actionButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/VideoComponentComposition.swift",
+      "line": null,
+      "symbol": "VideoComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/VideoComponentComposition.swift",
+      "line": 11,
+      "symbol": "VideoComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/WebhookComponentComposition.swift",
+      "line": null,
+      "symbol": "WebhookComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/WebhookComponentComposition.swift",
+      "line": 11,
+      "symbol": "WebhookComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/WebhookComponentComposition.swift",
+      "line": 12,
+      "symbol": "WebhookComponentComposition.actionButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/WebhookComponentComposition.swift",
+      "line": 13,
+      "symbol": "WebhookComponentComposition.successFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/Compositions/WebhookComponentComposition.swift",
+      "line": 14,
+      "symbol": "WebhookComponentComposition.failFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": null,
+      "symbol": "FontComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 12,
+      "symbol": "FontComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 13,
+      "symbol": "FontComposition.fontName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 14,
+      "symbol": "FontComposition.fontColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 15,
+      "symbol": "FontComposition.fontSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 16,
+      "symbol": "FontComposition.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 20,
+      "symbol": "FontComposition.init(name:color:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 26,
+      "symbol": "FontComposition.init(name:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 31,
+      "symbol": "FontComposition.init(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/FontComposition.swift",
+      "line": 35,
+      "symbol": "FontComposition.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": null,
+      "symbol": "MarkdownComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 11,
+      "symbol": "MarkdownComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 12,
+      "symbol": "MarkdownComposition.header1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 13,
+      "symbol": "MarkdownComposition.header2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 14,
+      "symbol": "MarkdownComposition.header3",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 15,
+      "symbol": "MarkdownComposition.header4",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 16,
+      "symbol": "MarkdownComposition.header5",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 17,
+      "symbol": "MarkdownComposition.header6",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 18,
+      "symbol": "MarkdownComposition.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 19,
+      "symbol": "MarkdownComposition.bold",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 20,
+      "symbol": "MarkdownComposition.italic",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/MarkdownComposition.swift",
+      "line": 21,
+      "symbol": "MarkdownComposition.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": null,
+      "symbol": "WinguButtonComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 11,
+      "symbol": "WinguButtonComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 12,
+      "symbol": "WinguButtonComposition.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 13,
+      "symbol": "WinguButtonComposition.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 14,
+      "symbol": "WinguButtonComposition.titleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 15,
+      "symbol": "WinguButtonComposition.roundedCorners",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 17,
+      "symbol": "WinguButtonComposition.actionComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": null,
+      "symbol": "WinguComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 11,
+      "symbol": "WinguComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 12,
+      "symbol": "WinguComposition.actionComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 13,
+      "symbol": "WinguComposition.surveyMonkeyComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 14,
+      "symbol": "WinguComposition.cmsComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 15,
+      "symbol": "WinguComposition.videoComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 16,
+      "symbol": "WinguComposition.galleryComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 17,
+      "symbol": "WinguComposition.separatorComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 18,
+      "symbol": "WinguComposition.ratingComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 19,
+      "symbol": "WinguComposition.contactComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 20,
+      "symbol": "WinguComposition.audioComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 21,
+      "symbol": "WinguComposition.couponComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 22,
+      "symbol": "WinguComposition.locationComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 23,
+      "symbol": "WinguComposition.webhookComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Model/WinguComposition.swift",
+      "line": 24,
+      "symbol": "WinguComposition.fileComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/GalleryViewController.swift",
+      "line": 11,
+      "symbol": "GalleryViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/GalleryViewController.swift",
+      "line": 13,
+      "symbol": "GalleryViewController.images",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/GalleryViewController.swift",
+      "line": 14,
+      "symbol": "GalleryViewController.preselectedIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/GalleryViewController.swift",
+      "line": 16,
+      "symbol": "GalleryViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/WebViewController.swift",
+      "line": 12,
+      "symbol": "WebViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/WebViewController.swift",
+      "line": 14,
+      "symbol": "WebViewController.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/ViewControllers/WebViewController.swift",
+      "line": 69,
+      "symbol": "WebViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 11,
+      "symbol": "DeckViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 12,
+      "symbol": "DeckViewDelegate.actionPerformed(_:payload:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 19,
+      "symbol": "UserInfoKey",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 20,
+      "symbol": "UserInfoKey.galleryPreselectedIndex",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 21,
+      "symbol": "UserInfoKey.ratingChannelID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 22,
+      "symbol": "UserInfoKey.ratingDeckID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 23,
+      "symbol": "UserInfoKey.ratingContentID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 24,
+      "symbol": "UserInfoKey.ratingRatingID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 25,
+      "symbol": "UserInfoKey.couponComponentComposition",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 71,
+      "symbol": "DeckView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 82,
+      "symbol": "DeckView.drawDeck(_:composition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 140,
+      "symbol": "DeckView.performDefault(_:payload:userInfo:navController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/WinguNibLoadingView.swift",
+      "line": 12,
+      "symbol": "WinguNibLoadingView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/WinguNibLoadingView.swift",
+      "line": 16,
+      "symbol": "WinguNibLoadingView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/WinguNibLoadingView.swift",
+      "line": 21,
+      "symbol": "WinguNibLoadingView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/WinguNibLoadingView.swift",
+      "line": 26,
+      "symbol": "WinguNibLoadingView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/winguSDKContent/winguSDKContent/Views/WinguNibLoadingView.swift",
+      "line": 32,
+      "symbol": "WinguBaseNibLoading",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jakubmazur/Developer/winguSDKContent"
+}

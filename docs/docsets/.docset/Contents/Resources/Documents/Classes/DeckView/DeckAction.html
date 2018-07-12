@@ -31,19 +31,7 @@
             <a href="../../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../../Classes.html#/c:@M@winguSDKContent@objc(cs)ActionComponentView">ActionComponentView</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../../Classes/BaseComponentView.html">BaseComponentView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Classes/BasicStyles.html">BasicStyles</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Classes/ContactSocialMediaView.html">ContactSocialMediaView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Classes/CouponComponentView.html">CouponComponentView</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Classes/DeckView.html">DeckView</a>
@@ -52,16 +40,7 @@
                 <a href="../../Classes/DeckView/DeckAction.html">– DeckAction</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Classes/FileComponentView.html">FileComponentView</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../../Classes/GalleryViewController.html">GalleryViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Classes/Markdown.html">Markdown</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Classes.html#/c:@M@winguSDKContent@objc(cs)SurveyMonkeyComponentView">SurveyMonkeyComponentView</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Classes/WebViewController.html">WebViewController</a>
@@ -80,9 +59,6 @@
           <li class="nav-group-name">
             <a href="../../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../../Enums/SocialMediaType.html">SocialMediaType</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../../Enums/UserInfoKey.html">UserInfoKey</a>
               </li>
@@ -198,7 +174,8 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Deck action represents all action that can be performed in a deck. Please note that action supported here not necessery match content configured in wingu portal, but it&rsquo;s highly recommended to support all the cases since wingu content can be updated without app updaete.<br/>
+It can be used always with <code><a href="../../Classes/DeckView.html#/s:15winguSDKContent8DeckViewC14performDefaultyAC0C6ActionO_ypSg7payloads10DictionaryVyAA11UserInfoKeyOAGGSg04userK0So22UINavigationControllerCSg03navO0tFZ">performDefault(_:payload:userInfo:navController:)</a></code> method in <code><a href="../../Classes/DeckView.html">DeckView</a></code> object.<br/></p>
 
           </section>
           <section class="section task-group-section">
@@ -217,7 +194,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>actionButtonTapped: User has tapped action button. It&rsquo;s usually indicate some redirection.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -231,10 +211,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -248,7 +224,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>galleryImageTapped: On of the picture in image gallery tapped. Usually indicates fullscreen gallery redirection perform by <code>WinguGallery</code> framework.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -262,10 +241,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -279,7 +254,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>ratingReadyToSubmit: User choose amount of rating (starts) and pressed <code>submit</code> button. It&rsquo;s usually indicates <code>.post</code> url call to wingu API.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -293,10 +271,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -310,7 +284,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>surveyMonkeyFillSurvey: User tapped on <q>Go to survey</q> button. It&rsquo;s usually redirect user to fullscreen survey in <code><a href="../../Classes/WebViewController.html">WebViewController</a></code>.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -324,10 +301,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -341,7 +314,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>couponTapped: Coupon tapped. It&rsquo;s usually show fullscreen coupon with much larger barcode and set screen brightness to 100% to facilitate scanning.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -355,10 +331,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -372,7 +344,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>undefined: Undifined action usually indicates some mismatch between wingu-sdk-ios-essentials and wingu-sdk-ios-content.<br/> Troubleshooting:<br/>
+There is only few actions that can lead to this issue, such as<br/></li>
+<li>Overriding existing components without <code>super</code></li>
+<li>Calling <code><a href="../../Classes/DeckView.html#/s:15winguSDKContent8DeckViewC14performDefaultyAC0C6ActionO_ypSg7payloads10DictionaryVyAA11UserInfoKeyOAGGSg04userK0So22UINavigationControllerCSg03navO0tFZ">performDefault(_:payload:userInfo:navController:)</a></code> method directly without callback from <code><a href="../../Classes/DeckView.html">DeckView</a></code></li>
+<li>Passing <code>.undefined</code> value to responder (doh!)</li>
+<li>Method swizzling in <code><a href="../../Classes/DeckView.html">DeckView</a></code> or some <code><a href="../../Classes/BaseComponentView.html">BaseComponentView</a></code> subclass.<br/>
+If all above method didn&rsquo;t solve issue and this oprion still is returned from some class please contact wingu support.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -391,8 +372,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-05-30)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-07-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

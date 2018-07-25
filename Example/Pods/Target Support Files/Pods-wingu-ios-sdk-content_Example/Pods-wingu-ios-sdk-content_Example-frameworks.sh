@@ -143,10 +143,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/wingu-ios-sdk-content/wingu_ios_sdk_content.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WinguGallery/WinguGallery.framework"
+  install_framework "${PODS_ROOT}/../../winguSDKContent.framework"
+  install_framework "${PODS_ROOT}/wingu-ios-sdk-essentials/winguSDKEssential.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/wingu-ios-sdk-content/wingu_ios_sdk_content.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WinguGallery/WinguGallery.framework"
+  install_framework "${PODS_ROOT}/../../winguSDKContent.framework"
+  install_framework "${PODS_ROOT}/wingu-ios-sdk-essentials/winguSDKEssential.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

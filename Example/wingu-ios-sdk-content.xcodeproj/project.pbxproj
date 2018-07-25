@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		138D8B5D5DDDFE69611462CE /* Pods_wingu_ios_sdk_content_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7389567B7B7728BAEC745A31 /* Pods_wingu_ios_sdk_content_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* ChannelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ChannelsListViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		D5A15C1B52C710BEA2DAD55A /* Pods_wingu_ios_sdk_content_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8B15612D76A555ED4C1BD /* Pods_wingu_ios_sdk_content_Tests.framework */; };
+		DDAF53CA210881B700E7B82B /* ChannelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF53C9210881B700E7B82B /* ChannelDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,7 @@
 		607FACD01AFB9204008FA782 /* wingu-ios-sdk-content_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wingu-ios-sdk-content_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ChannelsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsListViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		8B8114D55A5DE2006F086E51 /* Pods-wingu-ios-sdk-content_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wingu-ios-sdk-content_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-wingu-ios-sdk-content_Example/Pods-wingu-ios-sdk-content_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A6BCC96887A5D8C436D7AFDB /* wingu-ios-sdk-content.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "wingu-ios-sdk-content.podspec"; path = "../wingu-ios-sdk-content.podspec"; sourceTree = "<group>"; };
 		AD601C51F1DFCC9852506BF5 /* Pods-wingu-ios-sdk-content_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wingu-ios-sdk-content_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wingu-ios-sdk-content_Tests/Pods-wingu-ios-sdk-content_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDAF53C9210881B700E7B82B /* ChannelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailViewController.swift; sourceTree = "<group>"; };
 		E821DC6D1EA805B1C419C962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB1F56B06683FF3E076290CD /* Pods-wingu-ios-sdk-content_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wingu-ios-sdk-content_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wingu-ios-sdk-content_Example/Pods-wingu-ios-sdk-content_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +91,9 @@
 		607FACD21AFB9204008FA782 /* Example for wingu-ios-sdk-content */ = {
 			isa = PBXGroup;
 			children = (
+				DDAF53C9210881B700E7B82B /* ChannelDetailViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* ChannelsListViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -191,10 +194,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9232HDTN9M;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9232HDTN9M;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -247,11 +252,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-wingu-ios-sdk-content_Example/Pods-wingu-ios-sdk-content_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/wingu-ios-sdk-content/wingu_ios_sdk_content.framework",
+				"${BUILT_PRODUCTS_DIR}/WinguGallery/WinguGallery.framework",
+				"${PODS_ROOT}/../../winguSDKContent.framework",
+				"${PODS_ROOT}/wingu-ios-sdk-essentials/winguSDKEssential.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/wingu_ios_sdk_content.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WinguGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/winguSDKContent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/winguSDKEssential.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -301,8 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ChannelsListViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				DDAF53CA210881B700E7B82B /* ChannelDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +457,9 @@
 			baseConfigurationReference = EB1F56B06683FF3E076290CD /* Pods-wingu-ios-sdk-content_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
 				INFOPLIST_FILE = "wingu-ios-sdk-content/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -462,7 +474,9 @@
 			baseConfigurationReference = 8B8114D55A5DE2006F086E51 /* Pods-wingu-ios-sdk-content_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
 				INFOPLIST_FILE = "wingu-ios-sdk-content/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -476,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD601C51F1DFCC9852506BF5 /* Pods-wingu-ios-sdk-content_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9232HDTN9M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -497,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DFE203AB7F6C9981EE722FF /* Pods-wingu-ios-sdk-content_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9232HDTN9M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

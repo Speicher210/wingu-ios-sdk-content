@@ -1,8 +1,8 @@
 # wingu-ios-sdk-content
 
-[![Version](https://img.shields.io/cocoapods/v/wingu-ios-sdk-essentials.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
-[![License](https://img.shields.io/cocoapods/l/wingu-ios-sdk-essentials.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
-[![Platform](https://img.shields.io/cocoapods/p/wingu-ios-sdk-essentials.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
+[![Version](https://img.shields.io/cocoapods/v/wingu-ios-sdk-content.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
+[![License](https://img.shields.io/cocoapods/l/wingu-ios-sdk-content.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
+[![Platform](https://img.shields.io/cocoapods/p/wingu-ios-sdk-content.svg?style=flat)](http://cocoapods.org/pods/wingu-ios-sdk-content)
 
 wingu sdk content is an iOS SDK for managing content and triggers configured at [wingu](https://wingu.de). It will range beacons and find geofences already with content attached. This is and extension for [wingu-ios-sdk-essentials](https://github.com/wingu-GmbH/wingu-ios-sdk-essentials) framework and it's dependend on that.
 
@@ -49,7 +49,7 @@ github "wingu-GmbH/wingu-ios-sdk-content"
 Version of library can be downloaded using `binary` option in `Cartfile`. Add this line to `Cartfile`:
 
 ```ruby
-binary "https://raw.githubusercontent.com/wingu-GmbH/wingu-ios-sdk-essentials/master/wingu-ios-sdk-essentials.json"
+binary "https://raw.githubusercontent.com/wingu-GmbH/wingu-ios-sdk-content/master/wingu-ios-sdk-content.json"
 ```
 <a name="manual_installation"></a>
 ### Manual Installation

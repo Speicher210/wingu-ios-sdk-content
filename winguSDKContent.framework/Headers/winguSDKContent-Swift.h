@@ -287,6 +287,8 @@ SWIFT_CLASS("_TtC15winguSDKContent18FormViewController")
 
 
 
+
+
 SWIFT_CLASS("_TtC15winguSDKContent21GalleryViewController")
 @interface GalleryViewController : UIViewController
 - (void)viewDidLoad;

@@ -955,20 +955,27 @@
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 17,
-      "symbol": "FormComponentComposition.placeholderFont",
+      "symbol": "FormComponentComposition.submitButtonTitle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 18,
-      "symbol": "FormComponentComposition.inputFont",
+      "symbol": "FormComponentComposition.placeholderFont",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 19,
+      "symbol": "FormComponentComposition.inputFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
+      "line": 20,
       "symbol": "FormComponentComposition.separatorColor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -976,6 +983,13 @@
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 21,
+      "symbol": "FormComponentComposition.submitButtonFullscreen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
+      "line": 23,
       "symbol": "FormComponentComposition.init(deckTheme:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1654,7 +1668,7 @@
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/ViewControllers/FormViewController.swift",
-      "line": 23,
+      "line": 32,
       "symbol": "FormViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

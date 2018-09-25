@@ -934,62 +934,76 @@
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 14,
-      "symbol": "FormComponentComposition.buttonCaption",
+      "symbol": "FormComponentComposition.actionButtonDisabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 15,
-      "symbol": "FormComponentComposition.inputFieldsPlaceholder",
+      "symbol": "FormComponentComposition.buttonCaption",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 16,
-      "symbol": "FormComponentComposition.dropdownPlaceholder",
+      "symbol": "FormComponentComposition.inputFieldsPlaceholder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 17,
-      "symbol": "FormComponentComposition.submitButtonTitle",
+      "symbol": "FormComponentComposition.dropdownPlaceholder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 18,
-      "symbol": "FormComponentComposition.placeholderFont",
+      "symbol": "FormComponentComposition.submitButtonTitle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 19,
-      "symbol": "FormComponentComposition.inputFont",
+      "symbol": "FormComponentComposition.alreadyFilledButtonTitle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 20,
-      "symbol": "FormComponentComposition.separatorColor",
+      "symbol": "FormComponentComposition.placeholderFont",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 21,
-      "symbol": "FormComponentComposition.submitButtonFullscreen",
+      "symbol": "FormComponentComposition.inputFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
+      "line": 22,
+      "symbol": "FormComponentComposition.separatorColor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
       "line": 23,
+      "symbol": "FormComponentComposition.submitButtonFullscreen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/Compositions/FormComponentComposition.swift",
+      "line": 25,
       "symbol": "FormComponentComposition.init(deckTheme:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1530,6 +1544,13 @@
       "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
       "line": 31,
       "symbol": "WinguButtonComposition.actionComposition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jakubmazur/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Model/Components/WinguButtonComposition.swift",
+      "line": 37,
+      "symbol": "WinguButtonComposition.nonActiveComposition",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },

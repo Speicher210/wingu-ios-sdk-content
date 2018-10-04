@@ -179,7 +179,7 @@
             <h1>YouTubePlayerView</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">YouTubePlayerView</span> <span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">UIWebViewDelegate</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">YouTubePlayerView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">UIWebViewDelegate</span></code></pre>
 
                 </div>
               </div>
@@ -209,7 +209,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">YouTubePlayerParameters</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">AnyObject</span><span class="p">]</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">YouTubePlayerParameters</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">]</span></code></pre>
 
                         </div>
                       </div>
@@ -236,7 +236,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">baseURL</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">baseURL</span> <span class="o">=</span> <span class="s">"about:blank"</span></code></pre>
 
                         </div>
                       </div>
@@ -263,7 +263,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">ready</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">ready</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
 
                         </div>
                       </div>
@@ -290,7 +290,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">playerState</span><span class="p">:</span> <span class="kt"><a href="../Enums/YouTubePlayerState.html">YouTubePlayerState</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">playerState</span> <span class="o">=</span> <span class="kt"><a href="../Enums/YouTubePlayerState.html">YouTubePlayerState</a></span><span class="o">.</span><span class="kt">Unstarted</span></code></pre>
 
                         </div>
                       </div>
@@ -317,7 +317,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">playbackQuality</span><span class="p">:</span> <span class="kt"><a href="../Enums/YouTubePlaybackQuality.html">YouTubePlaybackQuality</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="nf">fileprivate</span><span class="p">(</span><span class="k">set</span><span class="p">)</span> <span class="kd">open</span> <span class="k">var</span> <span class="nv">playbackQuality</span> <span class="o">=</span> <span class="kt"><a href="../Enums/YouTubePlaybackQuality.html">YouTubePlaybackQuality</a></span><span class="o">.</span><span class="kt">Small</span></code></pre>
 
                         </div>
                       </div>
@@ -344,7 +344,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">playerVars</span><span class="p">:</span> <span class="kt">YouTubePlayerView</span><span class="o">.</span><span class="kt"><a href="../Classes/YouTubePlayerView.html#/s:15winguSDKContent17YouTubePlayerViewC0cdE10Parametersa">YouTubePlayerParameters</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">playerVars</span> <span class="o">=</span> <span class="nf">YouTubePlayerParameters</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -924,8 +924,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-09-25)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

@@ -263,6 +263,7 @@ SWIFT_CLASS("_TtC15winguSDKContent11BasicStyles")
 /// If there is a need to get callbacks from this view protocol is available.
 SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 @interface DeckView : UIView
+- (void)removeFromSuperview;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -1745,72 +1745,79 @@
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "DeckViewDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "DeckViewDelegate.actionPerformed(_:payload:userInfo:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "UserInfoKey",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "UserInfoKey.galleryPreselectedIndex",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 21,
+      "line": 22,
       "symbol": "UserInfoKey.ratingChannelID",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 22,
+      "line": 23,
       "symbol": "UserInfoKey.ratingDeckID",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "UserInfoKey.ratingContentID",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "UserInfoKey.ratingRatingID",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "UserInfoKey.couponComponentComposition",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "UserInfoKey.formComponentComposition",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/staruchowicz/Developer/wingu-ios-scripts/_build/winguSDKContent/winguSDKContent/Views/DeckView.swift",
+      "line": 160,
+      "symbol": "DeckView.removeFromSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {

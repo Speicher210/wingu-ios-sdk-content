@@ -6,7 +6,7 @@
 
 wingu sdk content is an iOS SDK for managing content and triggers configured at [wingu](https://wingu.de). It will range beacons and find geofences already with content attached. This is and extension for [wingu-ios-sdk-essentials](https://github.com/wingu-GmbH/wingu-ios-sdk-essentials) framework and it's dependend on that.
 
-wingu content SDK is delivered to you in pre-compiled form `.framework`. It's written in Swift 4.1 
+wingu content SDK is delivered to you in pre-compiled form `.framework`. It's written in Swift 4.2.1
 
 
 # Table of Contents

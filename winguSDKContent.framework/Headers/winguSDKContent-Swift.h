@@ -164,7 +164,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import CoreGraphics;
-@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 @import WebKit;
@@ -221,30 +220,6 @@ SWIFT_CLASS("_TtC15winguSDKContent17BaseComponentView")
 
 
 
-@class UIColor;
-
-SWIFT_PROTOCOL("_TtP15winguSDKContent14FontProperties_")
-@protocol FontProperties
-@property (nonatomic, copy) NSString * _Nullable fontName;
-@property (nonatomic, strong) UIColor * _Nonnull color;
-@property (nonatomic) CGFloat fontSize;
-@end
-
-
-/// A struct defining the styles that can be applied to the parsed Markdown. The <code>fontName</code> property is optional, and if it’s not set then the <code>fontName</code> property of the Body style will be applied.<br/>
-/// If that is not set, then the system default will be used.
-/// :nodoc:
-SWIFT_CLASS("_TtC15winguSDKContent11BasicStyles")
-@interface BasicStyles : NSObject <FontProperties>
-/// Name of the font as a String
-@property (nonatomic, copy) NSString * _Nullable fontName;
-/// Color of this style
-@property (nonatomic, strong) UIColor * _Nonnull color;
-/// Font size, default is <code>0.0</code>
-@property (nonatomic) CGFloat fontSize;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 
 
@@ -267,7 +242,6 @@ SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
@@ -298,15 +272,6 @@ SWIFT_CLASS("_TtC15winguSDKContent21GalleryViewController")
 @end
 
 
-
-
-/// A class that takes a <a href="https://daringfireball.net/projects/markdown/">Markdown</a> string or file and returns an NSAttributedString with the applied styles. Supports Dynamic Type.
-/// :nodoc:
-SWIFT_CLASS("_TtC15winguSDKContent8Markdown")
-@interface Markdown : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
 
 
 
@@ -348,17 +313,6 @@ SWIFT_CLASS("_TtC15winguSDKContent19WinguBaseNibLoading")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-@class UIWebView;
-
-/// Embed and control YouTube videos
-SWIFT_CLASS("_TtC15winguSDKContent17YouTubePlayerView")
-@interface YouTubePlayerView : UIView <UIWebViewDelegate>
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-- (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType SWIFT_WARN_UNUSED_RESULT;
-@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

@@ -4,160 +4,150 @@
     <title>FontComposition Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Struct/FontComposition" class="dashAnchor"></a>
+
     <a title="FontComposition Structure Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (9% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="../index.html"> Reference</a>
-        <img id="carat" src="../img/carat.png" />
-        FontComposition Structure Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (24% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/wingu-GmbH/wingu-ios-sdk-content">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      FontComposition Structure Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="../Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="../Deck.html">Deck</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/BaseComponentView.html">BaseComponentView</a>
+                <a class="nav-group-task-link" href="../Classes/DeckView.html">DeckView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DeckView.html">DeckView</a>
+                <a class="nav-group-task-link" href="../Classes/DeckView/DeckAction.html">– DeckAction</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/DeckView/DeckAction.html">– DeckAction</a>
+                <a class="nav-group-task-link" href="../Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FormViewController.html">FormViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/GalleryViewController.html">GalleryViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/WebViewController.html">WebViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes.html#/c:@M@winguSDKContent@objc(cs)WinguBaseNibLoading">WinguBaseNibLoading</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/WinguNibLoadingView.html">WinguNibLoadingView</a>
+                <a class="nav-group-task-link" href="../Structs/DeckTheme.html">DeckTheme</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="../Enumerations.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/UserInfoKey.html">UserInfoKey</a>
+                <a class="nav-group-task-link" href="../Enums/UserInfoKey.html">UserInfoKey</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="../Compositions.html">Compositions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/UIColor.html">UIColor</a>
+                <a class="nav-group-task-link" href="../Structs/WinguComposition.html">WinguComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FontComposition.html">FontComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MarkdownComposition.html">MarkdownComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Functions.html">Functions</a>
+            <a class="nav-group-name-link" href="../Component Composition.html">Component Composition</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:15winguSDKContent21videoIDFromYouTubeURLySSSg10Foundation0G0VF">videoIDFromYouTubeURL(_:)</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Protocols.html">Protocols</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Structs.html">Structures</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/ActionComponentComposition.html">ActionComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/ActionComponentComposition.html">ActionComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/AudioPlaylistComponentComposition.html">AudioPlaylistComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/BrandBarComponentComposition.html">BrandBarComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/BrandBarComponentComposition.html">BrandBarComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/CMSComponentComposition.html">CMSComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/CMSComponentComposition.html">CMSComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/ContactComponentComposition.html">ContactComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/ContactComponentComposition.html">ContactComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/CouponComponentComposition.html">CouponComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/CouponComponentComposition.html">CouponComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/FileComponentComposition.html">FileComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/DeckTheme.html">DeckTheme</a>
+                <a class="nav-group-task-link" href="../Structs/FormComponentComposition.html">FormComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/FileComponentComposition.html">FileComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/GalleryComponentComposition.html">GalleryComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/FontComposition.html">FontComposition</a>
+                <a class="nav-group-task-link" href="../Structs/LocationComponentComposition.html">LocationComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/FormComponentComposition.html">FormComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/RatingComponentComposition.html">RatingComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/GalleryComponentComposition.html">GalleryComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/SurveyMonkeyComponentComposition.html">SurveyMonkeyComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/LocationComponentComposition.html">LocationComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/VideoComponentComposition.html">VideoComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MarkdownComposition.html">MarkdownComposition</a>
+                <a class="nav-group-task-link" href="../Structs/WebhookComponentComposition.html">WebhookComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/RatingComponentComposition.html">RatingComponentComposition</a>
+                <a class="nav-group-task-link" href="../Structs/SeparatorComponentComposition.html">SeparatorComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SeparatorComponentComposition.html">SeparatorComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SurveyMonkeyComponentComposition.html">SurveyMonkeyComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/VideoComponentComposition.html">VideoComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/WebhookComponentComposition.html">WebhookComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/WinguComposition.html">WinguComposition</a>
+                <a class="nav-group-task-link" href="../Structs/AudioPlaylistComponentComposition.html">AudioPlaylistComponentComposition</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>FontComposition</h1>
               <div class="declaration">
                 <div class="language">
@@ -165,93 +155,23 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Contains information about font used in <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/>
+Should be always be used with one of the initializers.
+Default values if not set:<br/></p>
 
-          </section>
-          <section class="section task-group-section">
+<ul>
+<li><em>fontName</em>: <strong>systemFontName</strong> (Depends on iOS version could be <code>SanFrancisco</code> or <code>Helvetica</code>)<br/></li>
+<li><em>fontColor</em>: <strong><span style="color:#0c1e3d">#0c1e3d</span></strong><br/></li>
+<li><em>fontSize</em>: <strong>12</strong><br/></li>
+</ul>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV8fontNameSSvp"></a>
-                    <a name="//apple_ref/swift/Property/fontName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV8fontNameSSvp">fontName</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fontName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV9fontColorSo7UIColorCvp"></a>
-                    <a name="//apple_ref/swift/Property/fontColor" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV9fontColorSo7UIColorCvp">fontColor</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fontColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV8fontSize12CoreGraphics7CGFloatVvp"></a>
-                    <a name="//apple_ref/swift/Property/fontSize" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV8fontSize12CoreGraphics7CGFloatVvp">fontSize</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fontSize</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -265,7 +185,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p><code>UIFont</code> object combined with parameters from initializers.<br/></p>
+
+<blockquote>
+<p><strong>Note:</strong> If font will not be found default system font of size 12 will be returned<br/></p>
+</blockquote>
 
                       </div>
                       <div class="declaration">
@@ -292,7 +216,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Initialize <code>FontComposition</code> with all available parameters.</p>
 
                       </div>
                       <div class="declaration">
@@ -302,6 +226,49 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the font. If custom font in use make sure that font name match style.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>color</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font color</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font size</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -319,7 +286,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Initialize <code>FontComposition</code> using <code>name</code> and <code>size</code><br/>
+since color is skipped default color will be used.</p>
 
                       </div>
                       <div class="declaration">
@@ -329,6 +297,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the font. If custom font in use make sure that font name match style.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font size</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -346,7 +345,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Initialize <code>FontComposition</code> with color only.<br/>
+This initializer will used default system font size and family and change a color only.</p>
 
                       </div>
                       <div class="declaration">
@@ -357,86 +357,24 @@
 
                         </div>
                       </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV9deckThemeAcA04DeckF0V_tcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(deckTheme:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV9deckThemeAcA04DeckF0V_tcfc">init(deckTheme:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">deckTheme</span><span class="p">:</span> <span class="kt"><a href="../Structs/DeckTheme.html">DeckTheme</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV5setup9deckThemeyAA04DeckG0V_tF"></a>
-                    <a name="//apple_ref/swift/Method/setup(deckTheme:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV5setup9deckThemeyAA04DeckG0V_tF">setup(deckTheme:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">setup</span><span class="p">(</span><span class="nv">deckTheme</span><span class="p">:</span> <span class="kt"><a href="../Structs/DeckTheme.html">DeckTheme</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent15FontCompositionV9setupUrls9deckThemeyAA04DeckH0V_tF"></a>
-                    <a name="//apple_ref/swift/Method/setupUrls(deckTheme:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent15FontCompositionV9setupUrls9deckThemeyAA04DeckH0V_tF">setupUrls(deckTheme:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">setupUrls</span><span class="p">(</span><span class="nv">deckTheme</span><span class="p">:</span> <span class="kt"><a href="../Structs/DeckTheme.html">DeckTheme</a></span><span class="p">)</span></code></pre>
-
-                        </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>color</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font color</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -444,7 +382,7 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -474,14 +412,15 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-11-09)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2018-11-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>

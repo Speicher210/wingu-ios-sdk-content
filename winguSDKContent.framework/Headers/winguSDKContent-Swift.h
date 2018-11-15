@@ -164,9 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import CoreGraphics;
-@import ObjectiveC;
 @import UIKit;
-@import WebKit;
 @import winguSDKEssential;
 #endif
 
@@ -193,48 +191,22 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @class NSCoder;
 
-SWIFT_CLASS("_TtC15winguSDKContent19WinguNibLoadingView")
-@interface WinguNibLoadingView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-@end
-
-
-/// Base class for every Component based view.<br/>
-/// It’s responsible for sizing component whenever it’s not self-sized and perform procotols action.<br/>
-/// If there is a need to override existing component or create custom view for component this is a good starting point.
-SWIFT_CLASS("_TtC15winguSDKContent17BaseComponentView")
-@interface BaseComponentView : WinguNibLoadingView
-/// Overriden method to update constraints, It’s used to match <code>widthAnchor</code> to superview <code>widthAnchor</code> with multiplier 1. So in other words - width of this component will be always equal superview witdth.<br/>
-/// <blockquote>
-/// <em>Note</em>: When overriding this method is needed there is a need to call <code>super.updateConstraints()</code>. Otherwise some of the contrantis will break.<br/>
-///
-/// </blockquote>
-- (void)updateConstraints;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/// Representation of Content (Deck) configured in <a href="https://wingu.de">wingu portal</a><br/>
-/// It’s a view that usually is used inside whole <code>UIViewController</code>. It shows all supported components with current version of wingu-ios-sdk-essentials<br/>
+/// Representation of <code>Content</code> (<code>Deck</code>) configured in <a href="https://wingu-portal.de">wingu portal</a><br/>
+/// It’s a view that usually is used inside whole <code>UIViewController</code>. It shows all supported components with current version of <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a><br/>
 /// If there is a need to get callbacks from this view protocol is available.
 SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 @interface DeckView : UIView
@@ -249,27 +221,6 @@ SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 
 
 
-@class NSBundle;
-
-/// Fullscreen form controller
-SWIFT_CLASS("_TtC15winguSDKContent18FormViewController")
-@interface FormViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-
-
-SWIFT_CLASS("_TtC15winguSDKContent21GalleryViewController")
-@interface GalleryViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 
@@ -292,26 +243,6 @@ SWIFT_CLASS("_TtC15winguSDKContent21GalleryViewController")
 
 
 
-SWIFT_CLASS("_TtC15winguSDKContent17WebViewController")
-@interface WebViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface WebViewController (SWIFT_EXTENSION(winguSDKContent)) <WKNavigationDelegate>
-@end
-
-
-
-
-
-
-SWIFT_CLASS("_TtC15winguSDKContent19WinguBaseNibLoading")
-@interface WinguBaseNibLoading : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 #if __has_attribute(external_source_symbol)

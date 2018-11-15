@@ -4,170 +4,260 @@
     <title>  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="js/jquery.min.js" defer></script>
     <script src="js/jazzy.js" defer></script>
     
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
+
+
     <a title="  Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (9% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="index.html"> Reference</a>
-        <img id="carat" src="img/carat.png" />
-          Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+           Docs
+        </a>
+         (24% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/wingu-GmbH/wingu-ios-sdk-content">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html"> Reference</a>
+      <img class="carat" src="img/carat.png" />
+        Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="Deck.html">Deck</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Classes/BaseComponentView.html">BaseComponentView</a>
+                <a class="nav-group-task-link" href="Classes/DeckView.html">DeckView</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DeckView.html">DeckView</a>
+                <a class="nav-group-task-link" href="Classes/DeckView/DeckAction.html">– DeckAction</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/DeckView/DeckAction.html">– DeckAction</a>
+                <a class="nav-group-task-link" href="Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/FormViewController.html">FormViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/GalleryViewController.html">GalleryViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/WebViewController.html">WebViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes.html#/c:@M@winguSDKContent@objc(cs)WinguBaseNibLoading">WinguBaseNibLoading</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/WinguNibLoadingView.html">WinguNibLoadingView</a>
+                <a class="nav-group-task-link" href="Structs/DeckTheme.html">DeckTheme</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="Enumerations.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Enums/UserInfoKey.html">UserInfoKey</a>
+                <a class="nav-group-task-link" href="Enums/UserInfoKey.html">UserInfoKey</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="Compositions.html">Compositions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Extensions/UIColor.html">UIColor</a>
+                <a class="nav-group-task-link" href="Structs/WinguComposition.html">WinguComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/FontComposition.html">FontComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/MarkdownComposition.html">MarkdownComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/WinguButtonComposition.html">WinguButtonComposition</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Functions.html">Functions</a>
+            <a class="nav-group-name-link" href="Component Composition.html">Component Composition</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Functions.html#/s:15winguSDKContent21videoIDFromYouTubeURLySSSg10Foundation0G0VF">videoIDFromYouTubeURL(_:)</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Protocols.html">Protocols</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Structs.html">Structures</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Structs/ActionComponentComposition.html">ActionComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/ActionComponentComposition.html">ActionComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/AudioPlaylistComponentComposition.html">AudioPlaylistComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/BrandBarComponentComposition.html">BrandBarComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/BrandBarComponentComposition.html">BrandBarComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/CMSComponentComposition.html">CMSComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/CMSComponentComposition.html">CMSComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/ContactComponentComposition.html">ContactComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/ContactComponentComposition.html">ContactComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/CouponComponentComposition.html">CouponComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/CouponComponentComposition.html">CouponComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/FileComponentComposition.html">FileComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/DeckTheme.html">DeckTheme</a>
+                <a class="nav-group-task-link" href="Structs/FormComponentComposition.html">FormComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/FileComponentComposition.html">FileComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/GalleryComponentComposition.html">GalleryComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/FontComposition.html">FontComposition</a>
+                <a class="nav-group-task-link" href="Structs/LocationComponentComposition.html">LocationComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/FormComponentComposition.html">FormComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/RatingComponentComposition.html">RatingComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/GalleryComponentComposition.html">GalleryComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/SurveyMonkeyComponentComposition.html">SurveyMonkeyComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/LocationComponentComposition.html">LocationComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/VideoComponentComposition.html">VideoComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/MarkdownComposition.html">MarkdownComposition</a>
+                <a class="nav-group-task-link" href="Structs/WebhookComponentComposition.html">WebhookComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/RatingComponentComposition.html">RatingComponentComposition</a>
+                <a class="nav-group-task-link" href="Structs/SeparatorComponentComposition.html">SeparatorComponentComposition</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SeparatorComponentComposition.html">SeparatorComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/SurveyMonkeyComponentComposition.html">SurveyMonkeyComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/VideoComponentComposition.html">VideoComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/WebhookComponentComposition.html">WebhookComponentComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/WinguButtonComposition.html">WinguButtonComposition</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/WinguComposition.html">WinguComposition</a>
+                <a class="nav-group-task-link" href="Structs/AudioPlaylistComponentComposition.html">AudioPlaylistComponentComposition</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
-            
-            <h3 id='authors' class='heading'>Authors</h3>
 
-          </section>
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='wingu-ios-sdk-content' class='heading'>wingu-ios-sdk-content</h1>
+
+<p><a href="http://cocoapods.org/pods/wingu-ios-sdk-content"><img src="https://img.shields.io/cocoapods/v/wingu-ios-sdk-content.svg?style=flat" alt="Version"></a>
+<a href="http://cocoapods.org/pods/wingu-ios-sdk-content"><img src="https://img.shields.io/cocoapods/l/wingu-ios-sdk-content.svg?style=flat" alt="License"></a>
+<a href="http://cocoapods.org/pods/wingu-ios-sdk-content"><img src="https://img.shields.io/cocoapods/p/wingu-ios-sdk-content.svg?style=flat" alt="Platform"></a></p>
+
+<p>wingu sdk content is an iOS SDK for managing content and triggers configured at <a href="https://wingu.de">wingu</a>. It will range beacons and find geofences already with content attached. This is and extension for <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a> framework and it&rsquo;s dependend on that.</p>
+
+<p>wingu content SDK is delivered to you in pre-compiled form <code>.framework</code>. It&rsquo;s written in Swift 4.2.1</p>
+<h1 id='table-of-contents' class='heading'>Table of Contents</h1>
+
+<ol>
+<li><a href="#installation">Installation</a>
+
+<ul>
+<li><a href="#cocoapods">Cocoapods</a></li>
+<li><a href="#carthage">Carthage</a></li>
+<li><a href="#manual_installation">Manual installation</a></li>
+</ul></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#quick_start">Quick start guide</a></li>
+<li><a href="#full_documentation">Documentation</a></li>
+<li><a href="#license">License</a></li>
+</ol>
+
+<p><a name="installation"></a></p>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p><a name="cocoapods"></a></p>
+<h3 id='cocoapods' class='heading'>Cocoapods</h3>
+
+<p>wingu-ios-sdk-content is available through <a href="http://cocoapods.org">CocoaPods</a>. To install it, add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'wingu-ios-sdk-content'</span>
+</code></pre>
+
+<p><a name="carthage"></a></p>
+<h3 id='carthage' class='heading'>Carthage</h3>
+
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a simple, decentralized dependency manager for Cocoa. </p>
+
+<p>Version of library can be downloaded using <code>binary</code> option in <code>Cartfile</code>. Add this line to <code>Cartfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">binary</span> <span class="s2">"https://raw.githubusercontent.com/wingu-GmbH/wingu-ios-sdk-essentials/master/wingu-ios-sdk-essentials.json"</span>
+<span class="n">binary</span> <span class="s2">"https://raw.githubusercontent.com/wingu-GmbH/wingu-ios-sdk-content/master/wingu-ios-sdk-content.json"</span>
+<span class="n">github</span> <span class="s2">"wingu-GmbH/WinguGallery"</span>
+</code></pre>
+
+<p><a name="manual_installation"></a></p>
+<h3 id='manual-installation' class='heading'>Manual Installation</h3>
+
+<p>Copy <code>winguSDKEssential.framework</code> file from this repository to your project.</p>
+
+<p><a name="requirements"></a></p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<p>There is a location permission needed to run an app and work with wingu channels. Add this keys into your <code>Info.plist</code> file:</p>
+<pre class="highlight plaintext"><code>NSLocationAlwaysAndWhenInUseUsageDescription
+NSLocationWhenInUseUsageDescription
+</code></pre>
+
+<p><a name="quick_start"></a></p>
+<h2 id='quick-start-guide' class='heading'>Quick start guide</h2>
+
+<p>This guide shows you how get triggers callbacks with default configuration. You can always have some custom parameters in scanners. For all available configuration please check our <a href="#full_documentation">full documentation</a>. Depends on a use case you may need <code>winguLocations</code> in only one model or in whole app.</p>
+
+<p>We recommend create a one instance of <code>winguLocations</code>:</p>
+<pre class="highlight swift"><code><span class="kd">lazy</span> <span class="k">var</span> <span class="nv">winguLocations</span><span class="p">:</span> <span class="kt">WinguLocations</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">winguLocations</span><span class="p">:</span> <span class="kt">WinguLocations</span> <span class="o">=</span> <span class="kt">WinguLocations</span><span class="o">.</span><span class="n">shared</span>
+    <span class="n">winguLocations</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+    <span class="k">return</span> <span class="n">winguLocations</span>
+<span class="p">}()</span>
+</code></pre>
+
+<p>Your class should conform to protocol <code>WinguLocationsDelegate</code> and there you will receive all delegate callbacks from wingu triggers </p>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">YourClass</span><span class="p">:</span> <span class="nf">WinguLocationsDelegate</span> <span class="p">{</span> <span class="p">}</span>
+</code></pre>
+
+<p><code>WinguLocationsDelegate</code> requires only one method implemented to get triggers, but you can check <a href="#full_documentation">full documentation</a>. This required callback is:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">winguChannels</span><span class="p">(</span><span class="n">_</span> <span class="nv">channels</span><span class="p">:</span> <span class="p">[</span><span class="kt">Channel</span><span class="p">])</span> <span class="p">{</span>
+    <span class="c1">// your code here</span>
+<span class="p">}</span>
+</code></pre>
+
+<p><code>Channel</code> is default class for all wingu triggers. This method will return available list of channels in range and will also get called whenever some trigger are out of range or scanner found a new one.</p>
+
+<p>You can start ranging beacons by calling</p>
+<pre class="highlight swift"><code><span class="n">winguLocations</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+</code></pre>
+
+<p>See example project to learn more.</p>
+
+<p><a name="full_documentation"></a></p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>Documentation is available <a href="docs/index.html">here</a> or through your IDE.</p>
+
+<p><a name="license"></a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p><code>wingu-ios-sdk-essentials</code> is available under the Apache-2.0 license. See the LICENSE file for more info.</p>
+
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-11-09)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2018-11-15)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>

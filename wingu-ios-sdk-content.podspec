@@ -33,8 +33,8 @@ Content part of wingu iOS SDK. Visit www.wingu.de to know more.
 
   s.source_files = 'winguSDKContent.framework/Headers/*'
   s.vendored_frameworks = 'winguSDKContent.framework'
-  s.dependency 'wingu-ios-sdk-essentials', '1.0.4' 
-  s.dependency 'WinguGallery', '0.1.14'
+  s.dependency 'wingu-ios-sdk-essentials', '1.0.6' 
+  s.dependency 'WinguGallery', '0.2.1'
 
 end
 

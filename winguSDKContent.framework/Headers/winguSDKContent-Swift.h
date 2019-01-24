@@ -164,6 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import CoreGraphics;
+@import MapKit;
 @import UIKit;
 @import winguSDKEssential;
 #endif
@@ -201,8 +202,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-
-
 @class NSCoder;
 
 /// Representation of <code>Content</code> (<code>Deck</code>) configured in <a href="https://wingu-portal.de">wingu portal</a><br/>
@@ -210,10 +209,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// If there is a need to get callbacks from this view protocol is available.
 SWIFT_CLASS("_TtC15winguSDKContent8DeckView")
 @interface DeckView : UIView
+/// Whenever <code>DeckView</code> is being removed from superview analytics will be send to stop viewing content.<br/>
+/// Should be always used with <code>super</code> call when subclassing.<br/>
 - (void)removeFromSuperview;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+
+
+
 
 
 

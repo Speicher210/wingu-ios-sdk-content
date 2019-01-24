@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AudioPlaylistComposition Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/AudioPlaylistComposition" class="dashAnchor"></a>
+
+    <a title="AudioPlaylistComposition Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/wingu-GmbH/wingu-ios-sdk-content">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      AudioPlaylistComposition Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Deck.html">Deck</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DeckView.html">DeckView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DeckView/DeckAction.html">– DeckAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DeckTheme.html">DeckTheme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enumerations.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/UserInfoKey.html">UserInfoKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Compositions.html">Compositions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WinguComposition.html">WinguComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FontComposition.html">FontComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MarkdownComposition.html">MarkdownComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Component Composition.html">Component Composition</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ActionComposition.html">ActionComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AudioPlaylistComposition.html">AudioPlaylistComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BrandBarComposition.html">BrandBarComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ContactComposition.html">ContactComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CouponComposition.html">CouponComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FormComposition.html">FormComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FileComposition.html">FileComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GalleryComposition.html">GalleryComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LocationComposition.html">LocationComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/RatingComposition.html">RatingComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SeparatorComposition.html">SeparatorComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SurveyMonkeyComposition.html">SurveyMonkeyComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TextComposition.html">TextComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VideoComposition.html">VideoComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WebhookComposition.html">WebhookComposition</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>AudioPlaylistComposition</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AudioPlaylistComposition</span></code></pre>
+
+                </div>
+              </div>
+            <p>Styling of <code>AudioPlaylistComponent</code>.<br/></p>
+
+<p>Example view of component:<br/>
+<img src="../docs_assets/components/audio.png" alt="AudioPlaylist Component Composition"></br></p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV17progressTimesFontAA0hE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/progressTimesFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV17progressTimesFontAA0hE0Vvp">progressTimesFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Progress font diplayed in both end of progress bar. Should remain small.
+Default value: <span style="color:#000000;font-size:8pt;font-family:Helvetica"><b>System font of size 8, color: #FFFFFF</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">progressTimesFont</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV27progressViewBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV27progressViewBackgroundColorSo7UIColorCvp">progressViewBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Background color of progress view.<br/>
+This state is not filled up or avaiting progress state.<br/>
+Default value: <span style="color:#000000"><b>#FFFFFF, alpha 0.5</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">progressViewBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV21progressViewTintColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/progressViewTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV21progressViewTintColorSo7UIColorCvp">progressViewTintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tint color for progress.<br/>
+This state is filled up while song is playing.<br/>
+Default value: <span style="color:#000000"><b>#FFFFFF</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">progressViewTintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV5titleAA04FontE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV5titleAA04FontE0Vvp">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Title of song displayed when available.<br/>
+This is fetched from mp3 IDv3 tag and it&rsquo;s <strong>not a file name</strong>. Whenever mp3 miss this information this will be ignored and not displayed<br/>
+Default value: <span style="color:#000000;font-size:12pt;font-family:Helvetica"><b>System font of size 12, color: #FFFFFF</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV8subtitleAA04FontE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/subtitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV8subtitleAA04FontE0Vvp">subtitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Album name displayed when available.<br/>
+This is fetched from mp3 IDv3 tag and it&rsquo;s <strong>not a file name</strong>. Whenever mp3 miss this information this will be ignored and not displayed<br/>
+Default value: <span style="color:#000000;font-size:10pt;font-family:Helvetica"><b>System font of size 10, color: #FFFFFF</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subtitle</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV13playlistTitleAA04FontE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/playlistTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV13playlistTitleAA04FontE0Vvp">playlistTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Playlist cell view title.<br/>
+It will be displayed on a track list as title of a cell and the value of it will be title of a song from IDv3 tag of mp3 file.
+Default value: <span style="color:#0C1E3D;font-size:12pt;font-family:Helvetica"><b>System font of size 12, color: #0C1E3D</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playlistTitle</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV16playlistSubtitleAA04FontE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/playlistSubtitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV16playlistSubtitleAA04FontE0Vvp">playlistSubtitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Playlist cell view subtitle.<br/>
+It will be displayed on a track list as subtitle of a cell and the value of it will be title of an album name from IDv3 tag of mp3 file.
+Default value: <span style="color:#0C1E3D;font-size:10pt;font-family:Helvetica"><b>System font of size 10, color: #0C1E3D</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playlistSubtitle</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV16playlistDurationAA04FontE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/playlistDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV16playlistDurationAA04FontE0Vvp">playlistDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Accessory view of a cell.<br/>
+It will be displayed on a track list as accessory view and will be filled with duration of mp3 track.
+Default value: <span style="color:#0C1E3D;font-size:10pt;font-family:Helvetica"><b>System font of size 10, color: #0C1E3D</b></span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playlistDuration</span><span class="p">:</span> <span class="kt"><a href="../Structs/FontComposition.html">FontComposition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV17playlistTintColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/playlistTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV17playlistTintColorSo7UIColorCvp">playlistTintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tint color of a playlist. Whenever there is something selected on a playlist it will be marked using this color.<br/>
+Default value: <span style="color:#0061D6">#0061D6</span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playlistTintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV19playlistNormalColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/playlistNormalColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV19playlistNormalColorSo7UIColorCvp">playlistNormalColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Not selected color of a playlist. Whenever there is something not-selected on a playlist it will be marked using this color.<br/>
+Custom fonts colors in every property will override this color.<br/>
+Default value: <span style="color:#0C1E3D">#0C1E3D</span><br/></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playlistNormalColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent24AudioPlaylistCompositionV07defaultE0ACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultComposition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent24AudioPlaylistCompositionV07defaultE0ACvpZ">defaultComposition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default composition for <code>AudioPlaylistComposition</code><br/>
+Check variables declaration in class to get default values of every parameter.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">defaultComposition</span><span class="p">:</span> <span class="kt">AudioPlaylistComposition</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

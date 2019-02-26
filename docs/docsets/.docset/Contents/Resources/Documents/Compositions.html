@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -170,13 +192,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><code><a href="Classes/DeckView.html">DeckView</a></code> is described by multiple parameters depends on component. Use <code>WinguComposition</code> to use custom component display components in custom styling. Every component has custom set of parameters that needs to be set if customization is needed.<br/></p>
+                        <p>Use <code>WinguComposition</code> to customize your component display style. Every component has a custom set of parameters. These parameters can be customized when required.<br/></p>
 
 <blockquote>
-<p>If only basic configuration is needed <code><a href="Structs/DeckTheme.html">DeckTheme</a></code> provides basic customization options.</p>
+<p>If only basic configuration is required <code><a href="Structs/DeckTheme.html">DeckTheme</a></code> provides several basic customization options.</p>
 </blockquote>
 
-<p>Values can be override with custom composition or replaced single parameter from <code>.defaultComposition</code> static variable.</p>
+<p>Overriding values is possible with the custom composition, or can be replaced with a single parameter from the <code>.defaultComposition</code> static variable.</p>
 
                         <a href="Structs/WinguComposition.html" class="slightly-smaller">See more</a>
                       </div>
@@ -209,11 +231,11 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Contains information about font used in <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
-Should be always be used with one of the initializers.
-Default values if not set:<br/></p>
+This should always be used with one of the initializers.<br/>
+The default values are as follows:<br/></p>
 
 <ul>
-<li><em>fontName</em>: <strong>systemFontName</strong> (Depends on iOS version could be <code>SanFrancisco</code> or <code>Helvetica</code>)<br/></li>
+<li><em>fontName</em>: <strong>systemFontName</strong> (Depending on the iOS version this is either <code>SanFrancisco</code> or <code>Helvetica</code>)<br/></li>
 <li><em>fontColor</em>: <strong><span style="color:#0c1e3d">#0c1e3d</span></strong><br/></li>
 <li><em>fontSize</em>: <strong>12</strong><br/></li>
 </ul>
@@ -248,15 +270,15 @@ Default values if not set:<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Composition form markdown.<br/>
-Available attributes are listed as variables in this class.<br/></p>
+                        <p>This is the composition form for the markdown.<br/>
+The available attributes are listed as variables in this section.</p>
 
 <blockquote>
-<p><strong>Note:</strong> Default font will be default system font which will be <code>San Francisco</code> or <code>Helvetica</code> depends on client operating sytem version. For more information about default iOS font see: <a href="https://developer.apple.com/fonts/">See official Apple typography documentation</a></p>
+<p><strong>Note:</strong> The default font devices will be either <code>San Francisco</code> or <code>Helvetica</code> depending on the operating system version. For more information about the default iOS font visit: <a href="https://developer.apple.com/fonts/">See official Apple typography documentation</a></p>
 </blockquote>
 
-<p>Default color is the same as in <code><a href="Structs/FontComposition.html">FontComposition</a></code> struct. <br/>
-Highlited default color is: <span style="color:#0061D6"><b>#0061D6</b></span><br/>
+<p>The default color is the same as in the <code><a href="Structs/FontComposition.html">FontComposition</a></code> struct. <br/>
+Highlighted default color is: <span style="color:#0061D6"><b>#0061D6</b></span><br/>
 Defaults values are:<br/></p>
 
 <ul>
@@ -324,8 +346,8 @@ Defaults values are:<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default button used everywhere in <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
-It can contains only text.</p>
+                        <p>This is the default button used everywhere in the <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
+It is possible that it only contains text.</p>
 
                         <a href="Structs/WinguButtonComposition.html" class="slightly-smaller">See more</a>
                       </div>
@@ -348,7 +370,7 @@ It can contains only text.</p>
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

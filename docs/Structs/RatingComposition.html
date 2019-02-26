@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -184,7 +206,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Title displayed on the top of component.<br/>
+                        <p>Denotes the title as it will be displayed at the top of the component.<br/>
 Default value: <span style="color:#0C1E3D;font-size:18pt;font-family:Helvetica">System font of size 18, color: #0C1E3D</span><br/></p>
 
                       </div>
@@ -240,7 +262,7 @@ Default value: <img src="../docs_assets/extra/rating_star_full.png" alt="rating 
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Image for not selected.<br/>
+                        <p>Denotes the image for the non-selected parts of the rating.<br/>
 Default value: <img src="../docs_assets/extra/rating_star_empty.png" alt="rating star empty"></p>
 
                       </div>
@@ -296,7 +318,7 @@ Default value: <span style="color:#0C1E3D">#0C1E3D</span><br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Not selected tint color.<br/>
+                        <p>Denotes the color for the non-selected parts of the rating.<br/>
 Default value: <span style="color:#0C1E3D;opacity:0.5">#0C1E3D, alpha: 0.5</span><br/></p>
 
                       </div>
@@ -380,7 +402,7 @@ Default is default <code><a href="../Structs/WinguButtonComposition.html">WinguB
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Submit button style when form was already submitted.<br/>
+                        <p>Denotes the style of the submit button when a rating has already been provided. <br/>
 Default is <code>UIColor.lightGray</code> with <code>UIColor.white</code> font color.</p>
 
                       </div>
@@ -389,34 +411,6 @@ Default is <code>UIColor.lightGray</code> with <code>UIColor.white</code> font c
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">inactiveButton</span><span class="p">:</span> <span class="kt"><a href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:15winguSDKContent17RatingCompositionV17submitButtonTitleSSvp"></a>
-                    <a name="//apple_ref/swift/Property/submitButtonTitle" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15winguSDKContent17RatingCompositionV17submitButtonTitleSSvp">submitButtonTitle</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Submit button title. It will be displayed in submit button<br/>
-Default is <code>Rate</code>. Localized for all supported languages.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">submitButtonTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -436,8 +430,8 @@ Default is <code>Rate</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Submit button title. It will be displayed in submit button when it was already submitted<br/>
-Default is <code>Thank you for your rate!</code>. Localized for all supported languages.</p>
+                        <p>Denotes the “thank you” message after having submitted the form.<br/>
+The default text is <code>Rate</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -445,6 +439,34 @@ Default is <code>Thank you for your rate!</code>. Localized for all supported la
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">submitButtonSubmittedTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent17RatingCompositionV17submitButtonTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/submitButtonTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent17RatingCompositionV17submitButtonTitleSSvp">submitButtonTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the submit button title. It will be displayed in the submit button.<br/>
+The default text is <code>Thank you for your rate!</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">submitButtonTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -468,8 +490,8 @@ Default is <code>Thank you for your rate!</code>. Localized for all supported la
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default composition for <code>RatingComposition</code><br/>
-Check variables declaration in class to get default values of every parameter.</p>
+                        <p>The default composition for <code>RatingComposition</code><br/>
+Check the variables declaration to receive the default values for every parameter.</p>
 
                       </div>
                       <div class="declaration">
@@ -491,7 +513,7 @@ Check variables declaration in class to get default values of every parameter.</
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

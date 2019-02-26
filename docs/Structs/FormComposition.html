@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -155,7 +177,7 @@
 
                 </div>
               </div>
-            <p>Styling of <code>FormComponent</code>.<br/></p>
+            <p>Denotes the styling of the <code>FormComponent</code>.<br/></p>
 
 <p>Example view of component:<br/>
 <img src="../docs_assets/components/form.png" alt="Form Component Composition"></br></p>
@@ -180,7 +202,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Tint color for checkboxes when selected. Unselected checkboxes will remain system-default.<br/>
+                        <p>Denotes the selected tint color for the checkboxes if selected. Unselected checkboxes will remain set to the system default.<br/>
 Default value: <span style="color:#0061D6">#0061D6</span><br/></p>
 
                       </div>
@@ -208,7 +230,7 @@ Default value: <span style="color:#0061D6">#0061D6</span><br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Input text field font. This will be also applied as checkboxes label.<br/>
+                        <p>Denotes the text field font. These settings also be used for the checkbox label.<br/>
 Default value: <span style="color:#0C1E3D;font-size:14pt;font-family:Helvetica">System font of size 14, color: #0C1E3D</span><br/></p>
 
                       </div>
@@ -236,7 +258,7 @@ Default value: <span style="color:#0C1E3D;font-size:14pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Header text for every input field, chechboxes or dropdowns.<br/>
+                        <p>Denotes the header text for each input field, including checkboxes and dropdown menus.<br/>
 Default value: <span style="color:#0C1E3D;font-size:18pt;font-family:Helvetica">System font of size 18, color: #0C1E3D</span><br/></p>
 
                       </div>
@@ -264,7 +286,7 @@ Default value: <span style="color:#0C1E3D;font-size:18pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Header text for every input field, chechboxes or dropdowns. This is default <b>required</b> style.<br/>
+                        <p>Denotes the header text for each input field, including checkboxes and dropdown menus. This style is the default setting for <strong>required</strong> questions.<br/>
 Default value: <span style="color:#0C1E3D;font-size:18pt;font-family:Helvetica-Bold"><b>System font of size 18, color: #0C1E3D</b></span><br/></p>
 
                       </div>
@@ -292,8 +314,8 @@ Default value: <span style="color:#0C1E3D;font-size:18pt;font-family:Helvetica-B
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Caption on button, indication to fill the form.<br/>
-Default is <code>Fill form</code>. Localized for all supported languages.</p>
+                        <p>Denotes the caption on the button, requesting the user to fill out the form.<br/>
+The default text is <code>Fill form</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -320,8 +342,8 @@ Default is <code>Fill form</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Input field placeholder before putting any answer in the field. Applied for dropdowns and text fields.<br/>
-Default is <code>Your answer</code>. Localized for all supported languages.</p>
+                        <p>Denotes the input field placeholder prior to providing an answer.<br/>
+The default text is <code>Your answer</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -348,8 +370,8 @@ Default is <code>Your answer</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Caption on button, indication to submit filled form.<br/>
-Default is <code>Submit</code>. Localized for all supported languages.</p>
+                        <p>Denotes the caption on the button and indicates that the form can be submitted.<br/>
+The default text is <code>Submit</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -376,8 +398,8 @@ Default is <code>Submit</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Caption on button, for already sumbitted form. This text will also will be displayed right after sucessfull filling up and submitting the form.<br/>
-Default is <code>Thank you for filling the form.</code>. Localized for all supported languages.</p>
+                        <p>Denotes the caption on the “already filled out” button when a form has been filled out already. This text will also be displayed immediately after successfully filling out and submitting the form.<br/>
+The default text is <code>Thank you for filling the form.</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -404,8 +426,8 @@ Default is <code>Thank you for filling the form.</code>. Localized for all suppo
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Error shown as Alert with information that required field is missing.<br/>
-Default is <code>Field can not be empty.</code>. Localized for all supported languages.</p>
+                        <p>Denotes the error message shown when a <strong>required</strong> field has not been filled out.<br/>
+The default text is <code>Field can not be empty.</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -432,13 +454,13 @@ Default is <code>Field can not be empty.</code>. Localized for all supported lan
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Fields in fore may be required or optional. Required fields are without any other indication, optional firlds will have this text appended in the end.<br/></p>
+                        <p>The fields in the form can either be optional or required. The required fields do not have any further indication, whereas the optional fields will have the following text at the end:<br/></p>
 
 <blockquote>
-<p>Example: When form question is <i><b>Pick Your Favourite Color</b></i> it will became <i><b>Pick Your Favourite Color (optional)</b></i> with default value set here.<br/></p>
+<p>Example: when a form contains the question <i><b>Select your favorite color</b></i> it will become <i><b>Select your favorite color (optional)</b></i><br/></p>
 </blockquote>
 
-<p>Default value is <code>(optional)</code>. Localized for all supported languages.</p>
+<p>The default text is <code>(optional)</code>and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -465,8 +487,8 @@ Default is <code>Field can not be empty.</code>. Localized for all supported lan
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Error shown as Alert with information that email field does not pass validation<br/>
-Default is <code>The email address is invalid.</code>. Localized for all supported languages.</p>
+                        <p>Denotes the error shown as an alert and contains the information that the email provided does not pass the validation test.<br/>
+The default text is <code>The email address is invalid.</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -493,8 +515,8 @@ Default is <code>The email address is invalid.</code>. Localized for all support
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Error shown as Alert with information that url field does not pass validation<br/>
-Default is <code>This URL is invalid.</code>. Localized for all supported languages.</p>
+                        <p>Denotes the error shown as an alert and contains the information that the URL provided does not pass the validation test.<br/>
+The default text is <code>This URL is invalid.</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -521,8 +543,8 @@ Default is <code>This URL is invalid.</code>. Localized for all supported langua
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Warning about leaving without submitting.<br/>
-Default is <code>Form was not submitted. Are you sure you want to leave?</code>. Localized for all supported languages.</p>
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it.<br/>
+The default text is <code>Form was not submitted. Are you sure you want to leave?</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -549,8 +571,8 @@ Default is <code>Form was not submitted. Are you sure you want to leave?</code>.
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Warning about leaving without submitting. Selecting this option will leave and progress will be losts<br/>
-Default is <code>Yes</code>. Localized for all supported languages.</p>
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it. Selecting this option will allow the user to leave and all progress will be lost.<br/>
+The default text is <code>Yes</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -577,8 +599,8 @@ Default is <code>Yes</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Warning about leaving without submitting. Selecting this option will cancel action<br/>
-Default is <code>No</code>. Localized for all supported languages.</p>
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it. Selecting this option will cancel the leaving action.<br/>
+The default text is <code>No</code> and is localized for all supported languages.</p>
 
                       </div>
                       <div class="declaration">
@@ -605,7 +627,7 @@ Default is <code>No</code>. Localized for all supported languages.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Submit button style.<br/>
+                        <p>Denotes the style of the submit button.<br/>
 Default is default <code><a href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a></code> style.</p>
 
                       </div>
@@ -633,8 +655,8 @@ Default is default <code><a href="../Structs/WinguButtonComposition.html">WinguB
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Disabled button style.<br/>
-Will shown whenever form was submitted and is set as non-resubmittable or resubmittable with some delay configured in wingu portal.<br/>
+                        <p>Denotes the style of the disabled button.<br/>
+This button will be shown whenever the form was submitted and the portal settings for the form do not allow re-submitting the form, or only allow re-submitting the form after a certain period of time.<br/>
 Default is <code>UIColor.lightGray</code> with <code>UIColor.white</code> font color.</p>
 
                       </div>
@@ -662,7 +684,7 @@ Default is <code>UIColor.lightGray</code> with <code>UIColor.white</code> font c
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Font used in placeholder in editable fields.<br/>
+                        <p>Denotes the font used for the placeholder in the editable fields.<br/>
 Default value: <span style="color:#0C1E3D;opacity:0.7;font-size:14pt;font-family:Helvetica"><i>System font of size 14, color: #0C1E3D, opacity 0.7</i></span><br/></p>
 
                       </div>
@@ -718,7 +740,7 @@ Default is <span style="color:#0C1E3D;opacity:0.3">#0C1E3D, opacity 0.3</span></
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Submit button in fullscreen mode.<br/>
+                        <p>Denotes the submit button in fullscreen mode.<br/>
 Default is default button with font scaled up to 20pt.</p>
 
                       </div>
@@ -750,8 +772,8 @@ Default is default button with font scaled up to 20pt.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default composition for <code>FormComposition</code><br/>
-Check variables declaration in class to get default values of every parameter.</p>
+                        <p>The default composition for <code>FormComposition</code><br/>
+Check the variables declaration to receive the default values for every parameter.</p>
 
                       </div>
                       <div class="declaration">
@@ -773,7 +795,7 @@ Check variables declaration in class to get default values of every parameter.</
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

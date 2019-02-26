@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -170,9 +192,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Representation of <code>Content</code> (<code>Deck</code>) configured in <a href="https://wingu-portal.de">wingu portal</a><br/>
-It&rsquo;s a view that usually is used inside whole <code>UIViewController</code>. It shows all supported components with current version of <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a><br/>
-If there is a need to get callbacks from this view protocol is available.</p>
+                        <p>The representation of <code>Content</code> (<code>Deck</code>) as configured in the <a href="https://wingu-portal.de">wingu portal</a><br/>
+It is a view that is usually used inside the entire <code>UIViewController</code>. It shows all supported components within the current version of <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a><br/>
+For this view a protocol is available when callbacks are needed.</p>
 
                         <a href="Classes/DeckView.html" class="slightly-smaller">See more</a>
                       </div>
@@ -200,8 +222,8 @@ If there is a need to get callbacks from this view protocol is available.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Callback for action performed on <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
-Uses <code><a href="Enums/UserInfoKey.html">UserInfoKey</a></code> to pass informations about action.</p>
+                        <p>The callback for action is performed via <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
+It uses <code><a href="Enums/UserInfoKey.html">UserInfoKey</a></code> to pass informations about action.</p>
 
                         <a href="Protocols/DeckViewDelegate.html" class="slightly-smaller">See more</a>
                       </div>
@@ -233,8 +255,9 @@ Uses <code><a href="Enums/UserInfoKey.html">UserInfoKey</a></code> to pass infor
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Setting global theme (colors, fonts, etc.) for displaying <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
-ComponentComposition classes will get information in first order from this theme struct first.</p>
+                        <p>Allows to set the global theme (colors, fonts, etc.) that will be displayed in <code><a href="Classes/DeckView.html">DeckView</a></code>.<br/>
+As a default, the configuration from the DeckTheme will be applied in all <code>ComponentComposition</code> subclasses. Overriding these variables in this configuration will apply to all compositions. <br/>
+If there is a need to change certain details of the components, that can be done in the <code>ComponentComposition</code> subclasses.</p>
 
                         <a href="Structs/DeckTheme.html" class="slightly-smaller">See more</a>
                       </div>
@@ -257,7 +280,7 @@ ComponentComposition classes will get information in first order from this theme
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

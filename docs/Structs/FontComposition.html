@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -156,11 +178,11 @@
                 </div>
               </div>
             <p>Contains information about font used in <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/>
-Should be always be used with one of the initializers.
-Default values if not set:<br/></p>
+This should always be used with one of the initializers.<br/>
+The default values are as follows:<br/></p>
 
 <ul>
-<li><em>fontName</em>: <strong>systemFontName</strong> (Depends on iOS version could be <code>SanFrancisco</code> or <code>Helvetica</code>)<br/></li>
+<li><em>fontName</em>: <strong>systemFontName</strong> (Depending on the iOS version this is either <code>SanFrancisco</code> or <code>Helvetica</code>)<br/></li>
 <li><em>fontColor</em>: <strong><span style="color:#0c1e3d">#0c1e3d</span></strong><br/></li>
 <li><em>fontSize</em>: <strong>12</strong><br/></li>
 </ul>
@@ -185,10 +207,10 @@ Default values if not set:<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p><code>UIFont</code> object combined with parameters from initializers.<br/></p>
+                        <p>The <code>UIFont</code> object is combined with the parameters from the initializers.<br/></p>
 
 <blockquote>
-<p><strong>Note:</strong> If font will not be found default system font of size 12 will be returned<br/></p>
+<p><strong>Note:</strong> If the font is not found, parameters will be reset to the the default font and default font size 12<br/></p>
 </blockquote>
 
                       </div>
@@ -216,7 +238,7 @@ Default values if not set:<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Initialize <code>FontComposition</code> with all available parameters.</p>
+                        <p>Will initialize <code>FontComposition</code> with all available parameters.</p>
 
                       </div>
                       <div class="declaration">
@@ -239,7 +261,7 @@ Default values if not set:<br/></p>
                               </td>
                               <td>
                                 <div>
-                                  <p>Name of the font. If custom font in use make sure that font name match style.</p>
+                                  <p>The name of the font. When the custom font is used, make sure that the font name matches the overall style.</p>
                                 </div>
                               </td>
                             </tr>
@@ -286,8 +308,7 @@ Default values if not set:<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Initialize <code>FontComposition</code> using <code>name</code> and <code>size</code><br/>
-since color is skipped default color will be used.</p>
+                        <p>Will initialize <code>FontComposition</code> only using <code>name</code> and <code>size</code>. As color is not part of these parameters, the default color will be used. <br/></p>
 
                       </div>
                       <div class="declaration">
@@ -310,7 +331,7 @@ since color is skipped default color will be used.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>Name of the font. If custom font in use make sure that font name match style.</p>
+                                  <p>The name of the font. When the custom font is used, make sure that the font name matches the overall style.</p>
                                 </div>
                               </td>
                             </tr>
@@ -345,8 +366,8 @@ since color is skipped default color will be used.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Initialize <code>FontComposition</code> with color only.<br/>
-This initializer will used default system font size and family and change a color only.</p>
+                        <p>Will initialize <code>FontComposition</code> using only color.<br/>
+As font size and name are not part of this initializer, the default settings for these parameters will be used.</p>
 
                       </div>
                       <div class="declaration">
@@ -392,7 +413,7 @@ This initializer will used default system font size and family and change a colo
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Initialize <code>FontComposition</code> with color and <code>UIFont</code>.</p>
+                        <p>Will initialize <code>FontComposition</code> with color and <code>UIFont</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -427,7 +448,7 @@ This initializer will used default system font size and family and change a colo
                               </td>
                               <td>
                                 <div>
-                                  <p>fontt color</p>
+                                  <p>font color</p>
                                 </div>
                               </td>
                             </tr>
@@ -454,8 +475,8 @@ This initializer will used default system font size and family and change a colo
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default composition for <code>FontComposition</code><br/>
-Check variables declaration in class to get default values of every parameter.</p>
+                        <p>The default composition for <code>FontComposition</code><br/>
+Check the variables declaration to receive the default values for every parameter.</p>
 
                       </div>
                       <div class="declaration">
@@ -477,7 +498,7 @@ Check variables declaration in class to get default values of every parameter.</
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

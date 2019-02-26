@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -155,9 +177,9 @@
 
                 </div>
               </div>
-            <p>Representation of <code>Content</code> (<code>Deck</code>) configured in <a href="https://wingu-portal.de">wingu portal</a><br/>
-It&rsquo;s a view that usually is used inside whole <code>UIViewController</code>. It shows all supported components with current version of <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a><br/>
-If there is a need to get callbacks from this view protocol is available.</p>
+            <p>The representation of <code>Content</code> (<code>Deck</code>) as configured in the <a href="https://wingu-portal.de">wingu portal</a><br/>
+It is a view that is usually used inside the entire <code>UIViewController</code>. It shows all supported components within the current version of <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a><br/>
+For this view a protocol is available when callbacks are needed.</p>
 
           </div>
         </section>
@@ -179,7 +201,7 @@ If there is a need to get callbacks from this view protocol is available.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Deck action represents all action that can be performed in a deck. Please note that action supported here not necessery match content configured in wingu portal, but it&rsquo;s highly recommended to support all the cases since wingu content can be updated without app updaete.<br/>
+                        <p>Deck action represents all action that can be performed in a deck. Please note that action supported here does not necessarily match content configured in the wingu portal. However, it is highly recommended that all cases are supported, since wingu content can be updated without requiring an app update.<br/>
 It can be used always with <code>performDefault(_:payload:userInfo:navController:)</code> method in <code><a href="../Classes/DeckView.html">DeckView</a></code> object.<br/></p>
 
                         <a href="../Classes/DeckView/DeckAction.html" class="slightly-smaller">See more</a>
@@ -208,8 +230,9 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Setup delegate to get callbacks about actions that user took on the decks.<br/>
-It&rsquo;s possible to override actions, see <code>performDefault(_:payload:userInfo:navController:)</code> to know all available options.</p>
+                        <p>Set up <code>delegate</code> to receive callbacks concerning actions that users took on the decks. <br/>
+It is possible to override actions.<br/>
+Check <code>actionPerformed(_action:,payload:,userInfo:)</code> to see all available options.</p>
 
                       </div>
                       <div class="declaration">
@@ -237,10 +260,10 @@ It&rsquo;s possible to override actions, see <code>performDefault(_:payload:user
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Main channel of communication between model and view.<br/>
-All components can be drawn here based on <code>Channel</code> and <code><a href="../Structs/WinguComposition.html">WinguComposition</a></code>.<br/></p>
+All components here can be drawn based on <code>Channel</code> and <code><a href="../Structs/WinguComposition.html">WinguComposition</a></code>.<br/></p>
 
 <blockquote>
-<p><strong>Note</strong>: By default composition is set to <code>defaultComposition</code> it&rsquo;s recommended to override some properties there to match your company identity and branding. To lear more visit <code><a href="../Structs/WinguComposition.html">WinguComposition</a></code> struct.<br/></p>
+<p><strong>Note</strong>: By default composition is set to <code>defaultComposition</code>. It is recommended that you override some properties there in order to match your company identity and branding. To learn more visit <code><a href="../Structs/WinguComposition.html">WinguComposition</a></code> struct.<br/></p>
 </blockquote>
 
                       </div>
@@ -264,7 +287,7 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                               </td>
                               <td>
                                 <div>
-                                  <p>Channel that contain infromation about deck. If <code>channel</code> or <code>deck</code> is missing, deck will not be drawn.</p>
+                                  <p>Channel that contains information about a <code>Deck</code>. If <code>Channel</code> or <code>Deck</code> is missing, deck will not be drawn.</p>
                                 </div>
                               </td>
                             </tr>
@@ -276,7 +299,7 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                               </td>
                               <td>
                                 <div>
-                                  <p>Composition will apply to all components in deck</p>
+                                  <p>Composition applies to all components in a deck.</p>
                                 </div>
                               </td>
                             </tr>
@@ -299,10 +322,12 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Draw visible part of a deck. This will drawn only component that can be visible inside view.<br/></p>
+                        <p>The <code>previewDeck</code> allows you to see a preview of the deck contents.<br/>
+However, it will have a limited view and only show and load to memory the first 1-3 components.<br/>
+It&rsquo;s mostly use to render preview of an available <code>Content</code> with limit system resources and time.</p>
 
 <blockquote>
-<p><strong>Note:</strong> If you invalidate your parent view deck needs to be redrawn as well<br/></p>
+<p><strong>Note:</strong> If you invalidate the “parent view,” the deck needs to be drawn again<br/></p>
 </blockquote>
 
                       </div>
@@ -326,7 +351,7 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                               </td>
                               <td>
                                 <div>
-                                  <p>Channel that contain infromation about deck. If <code>channel</code> or <code>deck</code> is missing, deck will not be drawn.</p>
+                                  <p><code>Channel</code> that contains information about a <code>Deck</code>. If <code>channel</code> or <code>deck</code> is missing, deck will not be drawn.</p>
                                 </div>
                               </td>
                             </tr>
@@ -338,7 +363,7 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                               </td>
                               <td>
                                 <div>
-                                  <p>Composition will apply to all components in deck</p>
+                                  <p>Composition applies to all components in a deck.</p>
                                 </div>
                               </td>
                             </tr>
@@ -361,8 +386,8 @@ All components can be drawn here based on <code>Channel</code> and <code><a href
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Whenever <code>DeckView</code> is being removed from superview analytics will be send to stop viewing content.<br/>
-Should be always used with <code>super</code> call when subclassing.<br/></p>
+                        <p>Whenever <code>DeckView</code> is removed from superview, <code>Analytics</code> will mark this event as <code>stop</code> action in viewing content.<br/>
+This should always be used with <code>super</code> call when subclassing.</p>
 
                       </div>
                       <div class="declaration">
@@ -383,6 +408,95 @@ Should be always used with <code>super</code> call when subclassing.<br/></p>
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:15winguSDKContent8DeckViewC0A13Configuration0A12SDKEssential05WinguE0VyF"></a>
+                    <a name="//apple_ref/swift/Method/winguConfiguration()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent8DeckViewC0A13Configuration0A12SDKEssential05WinguE0VyF">winguConfiguration()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">winguConfiguration</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">WinguConfiguration</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Object of WinguConfiguration. See <code>WinguConfiguration</code> to learn more.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent8DeckViewC15actionPerformed_7payloadyAA013BaseComponentD0CSg_ypSgtF"></a>
+                    <a name="//apple_ref/swift/Method/actionPerformed(_:payload:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent8DeckViewC15actionPerformed_7payloadyAA013BaseComponentD0CSg_ypSgtF">actionPerformed(_:payload:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>In overriding case is a need to call <code>super.actionPerformed(sender:,payload:)</code>. Otherwise actions and userInfo will not be matched correctly.<br/>
+In case custom match actions and userInfo is need to call <code>self.delegate?.actionPerformed(action:,payload:,userInfo:)</code> to finalize match.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">actionPerformed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt"><a href="../Classes/BaseComponentView.html">BaseComponentView</a></span><span class="p">?,</span> <span class="nv">payload</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sender</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>view class of component where action was performed. e.g. For CouponComponent it will be CouponComponentView.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>payload</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>depends on the component.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:15winguSDKContent8DeckViewC14performDefault_7payload8userInfo13configuration02inD10ControlleryAC0C6ActionO_ypSgSDyAA04UserI3KeyOAKGSg0A12SDKEssential18WinguConfigurationVSo06UIViewL0CtFZ"></a>
                     <a name="//apple_ref/swift/Method/performDefault(_:payload:userInfo:configuration:inViewController:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:15winguSDKContent8DeckViewC14performDefault_7payload8userInfo13configuration02inD10ControlleryAC0C6ActionO_ypSgSDyAA04UserI3KeyOAKGSg0A12SDKEssential18WinguConfigurationVSo06UIViewL0CtFZ">performDefault(_:payload:userInfo:configuration:inViewController:)</a>
@@ -393,8 +507,10 @@ Should be always used with <code>super</code> call when subclassing.<br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Call this method to perform default action for every <code><a href="../Classes/DeckView/DeckAction.html">DeckView.DeckAction</a></code>. Payload presence and content depends on the action and can be found in a table below.<br/>
-Whenever action is reflected on a screen with new <code>UIViewController</code> and action requires new <code>UINavigationController</code> with this method <code>UINavigationController</code> will be created and form will be shown modally.</p>
+                        <p>Call this method to perform default action for every <code><a href="../Classes/DeckView/DeckAction.html">DeckView.DeckAction</a></code>.<br/>
+Payload presence and content depends on the action and can be found in the table below.<br/>
+Whenever an action is shown on a screen new instance of <code>UIViewController</code> will be created. In case when action requires <code>UINavigationController</code> it will be created and pushed as well.<br/>
+By default <code>UIViewController</code> will be presented modally.</p>
 
                       </div>
                       <div class="declaration">
@@ -453,7 +569,7 @@ Whenever action is reflected on a screen with new <code>UIViewController</code> 
                               </td>
                               <td>
                                 <div>
-                                  <p>configuration for wingu, required by some actions</p>
+                                  <p>Configuration for wingu, required for some actions.</p>
                                 </div>
                               </td>
                             </tr>
@@ -465,7 +581,7 @@ Whenever action is reflected on a screen with new <code>UIViewController</code> 
                               </td>
                               <td>
                                 <div>
-                                  <p>View controller from where action is triggered.<br/></p>
+                                  <p><code>UIViewController</code> from whence the action is triggered.<br/></p>
                                 </div>
                               </td>
                             </tr>
@@ -483,7 +599,7 @@ Whenever action is reflected on a screen with new <code>UIViewController</code> 
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

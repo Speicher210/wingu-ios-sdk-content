@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -155,7 +177,7 @@
 
                 </div>
               </div>
-            <p>Styling of <code>AudioPlaylistComponent</code>.<br/></p>
+            <p>This denotes the styling of the <code>AudioPlaylistComponent</code>.<br/></p>
 
 <p>Example view of component:<br/>
 <img src="../docs_assets/components/audio.png" alt="AudioPlaylist Component Composition"></br></p>
@@ -180,7 +202,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Progress font diplayed in both end of progress bar. Should remain small.
+                        <p>The progress font is displayed on both ends of the progress bar. The font should remain small.
 Default value: <span style="color:#000000;font-size:8pt;font-family:Helvetica"><b>System font of size 8, color: #FFFFFF</b></span><br/></p>
 
                       </div>
@@ -208,8 +230,8 @@ Default value: <span style="color:#000000;font-size:8pt;font-family:Helvetica"><
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Background color of progress view.<br/>
-This state is not filled up or avaiting progress state.<br/>
+                        <p>This denotes the background color of the progress view.<br/>
+This section is not filled nor awaiting progress.<br/>
 Default value: <span style="color:#000000"><b>#FFFFFF, alpha 0.5</b></span><br/></p>
 
                       </div>
@@ -237,8 +259,8 @@ Default value: <span style="color:#000000"><b>#FFFFFF, alpha 0.5</b></span><br/>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Tint color for progress.<br/>
-This state is filled up while song is playing.<br/>
+                        <p>This denotes the color of the progress bar.<br/>
+The progress bar is shown while a song is playing.<br/>
 Default value: <span style="color:#000000"><b>#FFFFFF</b></span><br/></p>
 
                       </div>
@@ -266,8 +288,8 @@ Default value: <span style="color:#000000"><b>#FFFFFF</b></span><br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Title of song displayed when available.<br/>
-This is fetched from mp3 IDv3 tag and it&rsquo;s <strong>not a file name</strong>. Whenever mp3 miss this information this will be ignored and not displayed<br/>
+                        <p>If available, this denotes the song title that is displayed.<br/>
+It is fetched from the mp3 IDv3 tag and <strong>is NOT a file name</strong>. Whenever the mp3 has not been given a title, the title field will remain empty.<br/>
 Default value: <span style="color:#000000;font-size:12pt;font-family:Helvetica"><b>System font of size 12, color: #FFFFFF</b></span><br/></p>
 
                       </div>
@@ -295,8 +317,8 @@ Default value: <span style="color:#000000;font-size:12pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Album name displayed when available.<br/>
-This is fetched from mp3 IDv3 tag and it&rsquo;s <strong>not a file name</strong>. Whenever mp3 miss this information this will be ignored and not displayed<br/>
+                        <p>This denotes the album name, which is displayed when available.<br/>
+It is fetched from the mp3 IDv3 tag and <strong>is NOT a file name</strong>. Whenever the mp3 has not been given a title, the title field will remain empty.<br/>
 Default value: <span style="color:#000000;font-size:10pt;font-family:Helvetica"><b>System font of size 10, color: #FFFFFF</b></span><br/></p>
 
                       </div>
@@ -324,8 +346,8 @@ Default value: <span style="color:#000000;font-size:10pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Playlist cell view title.<br/>
-It will be displayed on a track list as title of a cell and the value of it will be title of a song from IDv3 tag of mp3 file.
+                        <p>This denotes the playlist track list view.<br/>
+It will displayed on a track list as the title of a cell. The value will be the title of a song from the IDv3 tag of the mp3 file.
 Default value: <span style="color:#0C1E3D;font-size:12pt;font-family:Helvetica"><b>System font of size 12, color: #0C1E3D</b></span><br/></p>
 
                       </div>
@@ -353,8 +375,8 @@ Default value: <span style="color:#0C1E3D;font-size:12pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Playlist cell view subtitle.<br/>
-It will be displayed on a track list as subtitle of a cell and the value of it will be title of an album name from IDv3 tag of mp3 file.
+                        <p>This denotes the playlist subtitle in the track list view.<br/>
+It will displayed on a track list as the title of an album from IDv3 tag of the mp3 file.
 Default value: <span style="color:#0C1E3D;font-size:10pt;font-family:Helvetica"><b>System font of size 10, color: #0C1E3D</b></span><br/></p>
 
                       </div>
@@ -411,7 +433,8 @@ Default value: <span style="color:#0C1E3D;font-size:10pt;font-family:Helvetica">
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Tint color of a playlist. Whenever there is something selected on a playlist it will be marked using this color.<br/>
+                        <p>This denotes the tint color of a playlist.<br/>
+Whenever a selection in the playlist has taken place it will be marked using this color.<br/>
 Default value: <span style="color:#0061D6">#0061D6</span><br/></p>
 
                       </div>
@@ -439,8 +462,9 @@ Default value: <span style="color:#0061D6">#0061D6</span><br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Not selected color of a playlist. Whenever there is something not-selected on a playlist it will be marked using this color.<br/>
-Custom fonts colors in every property will override this color.<br/>
+                        <p>The “not-selected” color in the playlist.<br/>
+Whenever something is not selected in the playlist, it will be shown in this color.
+Customized font colors will override this setting.<br/>
 Default value: <span style="color:#0C1E3D">#0C1E3D</span><br/></p>
 
                       </div>
@@ -472,8 +496,8 @@ Default value: <span style="color:#0C1E3D">#0C1E3D</span><br/></p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default composition for <code>AudioPlaylistComposition</code><br/>
-Check variables declaration in class to get default values of every parameter.</p>
+                        <p>The default composition for <code>AudioPlaylistComposition</code><br/>
+Check the variables declaration to receive the default values for every parameter.</p>
 
                       </div>
                       <div class="declaration">
@@ -495,7 +519,7 @@ Check variables declaration in class to get default values of every parameter.</
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

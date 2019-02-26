@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -155,7 +177,7 @@
 
                 </div>
               </div>
-            <p>Deck action represents all action that can be performed in a deck. Please note that action supported here not necessery match content configured in wingu portal, but it&rsquo;s highly recommended to support all the cases since wingu content can be updated without app updaete.<br/>
+            <p>Deck action represents all action that can be performed in a deck. Please note that action supported here does not necessarily match content configured in the wingu portal. However, it is highly recommended that all cases are supported, since wingu content can be updated without requiring an app update.<br/>
 It can be used always with <code>performDefault(_:payload:userInfo:navController:)</code> method in <code><a href="../../Classes/DeckView.html">DeckView</a></code> object.<br/></p>
 
           </div>
@@ -180,7 +202,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>actionButtonTapped: User has tapped action button. It&rsquo;s usually indicate some redirection.</li>
+<li>actionButtonTapped: The user has tapped an action button. This indicates a redirection.</li>
 </ul>
 
                       </div>
@@ -210,7 +232,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>galleryImageTapped: On of the picture in image gallery tapped. Usually indicates fullscreen gallery redirection perform by <code>WinguGallery</code> framework.</li>
+<li>galleryImageTapped: The user has tapped on one of the images in the image gallery. This indicates a redirection to the fullscreen gallery performed by the <code>WinguGallery</code> framework.</li>
 </ul>
 
                       </div>
@@ -240,7 +262,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>surveyMonkeyFillSurvey: User tapped on <q>Go to survey</q> button. It&rsquo;s usually redirect user to fullscreen survey in <code>WebViewController</code>.</li>
+<li>surveyMonkeyFillSurvey: The user has tapped on the “Go to survey” button. This redirects the user to the fullscreen survey in the <code>WebViewController</code>.</li>
 </ul>
 
                       </div>
@@ -270,7 +292,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>couponTapped: Coupon tapped. It&rsquo;s usually show fullscreen coupon with much larger barcode and set screen brightness to 100% to facilitate scanning.</li>
+<li>couponTapped: The user has tapped a coupon. It will show a fullscreen coupon with a large barcode and sets the screen brightness to 100% to facilitate scanning.</li>
 </ul>
 
                       </div>
@@ -300,7 +322,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>Form component tapped. It&rsquo;s usually show fullscreen component with options to submit form</li>
+<li>formTapped: The user has tapped a form component. It will show the form component on full screen including the option to submit the form.</li>
 </ul>
 
                       </div>
@@ -330,7 +352,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>Location component map tapped. It&rsquo;s usually shows fullscreen component with gesture for zooming allowed.</li>
+<li>locationTapped: The user has tapped a location component. It shows the map in full screen with options for zooming allowed.</li>
 </ul>
 
                       </div>
@@ -360,7 +382,7 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>File component map tapped. This callback will be called <strong>only</strong> when file is already downloaded. Download will start automatically after first interaction.</li>
+<li>fileTapped: The user has tapped a file component. This callback will only be called when the file is already downloaded. The download will start automatically after the first interaction.</li>
 </ul>
 
                       </div>
@@ -390,13 +412,13 @@ It can be used always with <code>performDefault(_:payload:userInfo:navController
                       <div class="abstract">
                         
 <ul>
-<li>undefined: Undifined action usually indicates some mismatch between wingu-sdk-ios-essentials and wingu-sdk-ios-content.<br/> Troubleshooting:<br/>
-There is only few actions that can lead to this issue, such as<br/></li>
-<li>Overriding existing components without <code>super</code></li>
-<li>Calling <code>performDefault(_:payload:userInfo:navController:)</code> method directly without callback from <code><a href="../../Classes/DeckView.html">DeckView</a></code></li>
-<li>Passing <code>.undefined</code> value to responder (doh!)</li>
-<li>Method swizzling in <code><a href="../../Classes/DeckView.html">DeckView</a></code> or some <code>BaseComponentView</code> subclass.<br/>
-If all above method didn&rsquo;t solve issue and this oprion still is returned from some class please contact wingu support.</li>
+<li>undefined: undefined action indicates a mismatch between the <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-essentials">wingu-ios-sdk-essentials</a> and the <a href="https://github.com/wingu-GmbH/wingu-ios-sdk-content">wingu-ios-sdk-content</a>.<br/> Troubleshoot:<br/>
+There are only a few actions that can trigger this issue:<br/></li>
+<li>Overriding the existing components without <code>super</code> call.</li>
+<li>Calling <code>performDefault(_:payload:userInfo:navController:)</code> method directly without callback from <code><a href="../../Classes/DeckView.html">DeckView</a></code>.</li>
+<li>Passing <code>.undefined</code> value to responder (doh!).</li>
+<li>Method swizzling in <code><a href="../../Classes/DeckView.html">DeckView</a></code> or some of <code><a href="../../Classes/BaseComponentView.html">BaseComponentView</a></code> subclass.<br/>
+If the above methods do not solve the issue and this option is still returned, please contact <a href="https://www.wingu.app/contact">wingu support</a>.</li>
 </ul>
 
                       </div>
@@ -419,7 +441,7 @@ If all above method didn&rsquo;t solve issue and this oprion still is returned f
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

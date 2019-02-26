@@ -142,6 +142,28 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -155,8 +177,9 @@
 
                 </div>
               </div>
-            <p>Setting global theme (colors, fonts, etc.) for displaying <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/>
-ComponentComposition classes will get information in first order from this theme struct first.</p>
+            <p>Allows to set the global theme (colors, fonts, etc.) that will be displayed in <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/>
+As a default, the configuration from the DeckTheme will be applied in all <code>ComponentComposition</code> subclasses. Overriding these variables in this configuration will apply to all compositions. <br/>
+If there is a need to change certain details of the components, that can be done in the <code>ComponentComposition</code> subclasses.</p>
 
           </div>
         </section>
@@ -180,11 +203,10 @@ ComponentComposition classes will get information in first order from this theme
                       <div class="abstract">
                         
 <ul>
-<li>actionColor: Color used for background on elements with actions. <br/>
-This will be also text tint color in text components.<br/></li>
+<li>actionColor: The color used in the background of elements containing actions. The same color will be used as the text tint color in the text element.<br/></li>
 </ul>
 
-<p>Default is <strong>blue</strong></p>
+<p>Default value: <span style="color:#0C1E3D">#0C1E3D</span><br/></p>
 
                       </div>
                       <div class="declaration">
@@ -213,11 +235,11 @@ This will be also text tint color in text components.<br/></li>
                       <div class="abstract">
                         
 <ul>
-<li>actionColorText: Text color of elements displayed at <code><a href="../Structs/DeckTheme.html#/s:15winguSDKContent9DeckThemeV11actionColorSo7UIColorCvp">actionColor</a></code>.<br/>
-Text component tint color is excluded and uses <code><a href="../Structs/DeckTheme.html#/s:15winguSDKContent9DeckThemeV11actionColorSo7UIColorCvp">actionColor</a></code> for tint instead.<br/></li>
+<li>actionColorText: The text color of the elements displayed at <code><a href="../Structs/DeckTheme.html#/s:15winguSDKContent9DeckThemeV11actionColorSo7UIColorCvp">actionColor</a></code>.<br/>
+The text tint component color is excluded and uses <code><a href="../Structs/DeckTheme.html#/s:15winguSDKContent9DeckThemeV11actionColorSo7UIColorCvp">actionColor</a></code> for tint instead.<br/></li>
 </ul>
 
-<p>Default is <strong>white</strong></p>
+<p>Default value: <span style="color:#000000">#FFFFFF</span><br/></p>
 
                       </div>
                       <div class="declaration">
@@ -246,7 +268,7 @@ Text component tint color is excluded and uses <code><a href="../Structs/DeckThe
                       <div class="abstract">
                         
 <ul>
-<li>isRoundedCornersButton: Boolean value that indicates is elements on <code><a href="../Classes/DeckView.html">DeckView</a></code> should have sharp or rounded corners.</li>
+<li>isRoundedCornersButton: The Boolean value that shows the elements in <code><a href="../Classes/DeckView.html">DeckView</a></code> must have sharp or rounded corners.</li>
 </ul>
 
 <p>Default is <strong>true</strong></p>
@@ -278,16 +300,16 @@ Text component tint color is excluded and uses <code><a href="../Structs/DeckThe
                       <div class="abstract">
                         
 <ul>
-<li>fontName: Font object used in all components in <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/></li>
+<li>fontName: The font object that is used in all components in <code><a href="../Classes/DeckView.html">DeckView</a></code>.<br/></li>
 </ul>
 
-<p>Size is a reference size that will be upscaled when needed.<br/></p>
+<p>The size is a reference size that can be upscaled when needed.<br/></p>
 
 <blockquote>
-<p><em>Note:</em> If you need a custom font you will need provide it in your application bundle and link it here.<br/></p>
+<p><em>Note:</em> If you require a custom font you need to add it in your application bundle and link it there.<br/></p>
 </blockquote>
 
-<p>Default is <strong>system font</strong> of size 10.</p>
+<p>Default value: <span style="font-size:12pt">System font of size 12</span><br/></p>
 
                       </div>
                       <div class="declaration">
@@ -309,7 +331,7 @@ Text component tint color is excluded and uses <code><a href="../Structs/DeckThe
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-01-24)</p>
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-02-26)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

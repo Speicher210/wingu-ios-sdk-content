@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FormTranslation Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/FormTranslation" class="dashAnchor"></a>
+
+    <a title="FormTranslation Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/wingu-GmbH/wingu-ios-sdk-content">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      FormTranslation Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Deck.html">Deck</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DeckView.html">DeckView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DeckView/DeckAction.html">– DeckAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DeckViewDelegate.html">DeckViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DeckTheme.html">DeckTheme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enumerations.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/UserInfoKey.html">UserInfoKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Compositions.html">Compositions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WinguComposition.html">WinguComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FontComposition.html">FontComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MarkdownComposition.html">MarkdownComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WinguButtonComposition.html">WinguButtonComposition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Component Composition.html">Component Composition</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ActionComposition.html">ActionComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AudioPlaylistComposition.html">AudioPlaylistComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BrandBarComposition.html">BrandBarComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ContactComposition.html">ContactComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CouponComposition.html">CouponComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FormComposition.html">FormComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FileComposition.html">FileComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GalleryComposition.html">GalleryComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LocationComposition.html">LocationComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/RatingComposition.html">RatingComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SeparatorComposition.html">SeparatorComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SurveyMonkeyComposition.html">SurveyMonkeyComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TextComposition.html">TextComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/VideoComposition.html">VideoComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/WebhookComposition.html">WebhookComposition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseComponentView.html">BaseComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponComponentView.html">CouponComponentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CouponViewController.html">CouponViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ComponentActionProtocol.html">ComponentActionProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ContactTranslation.html">ContactTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CouponTranslation.html">CouponTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FormTranslation.html">FormTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GalleryTranslation.html">GalleryTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LocationTranslation.html">LocationTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/RatingTranslation.html">RatingTranslation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SurveyMonkeyTranslation.html">SurveyMonkeyTranslation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>FormTranslation</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FormTranslation</span></code></pre>
+
+                </div>
+              </div>
+            <p>Localized strings of <code>FormComponent</code>.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV13buttonCaptionSSvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonCaption" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV13buttonCaptionSSvp">buttonCaption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the caption on the button, requesting the user to fill out the form.<br/>
+The default text is <code>Fill form</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">buttonCaption</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV22inputFieldsPlaceholderSSvp"></a>
+                    <a name="//apple_ref/swift/Property/inputFieldsPlaceholder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV22inputFieldsPlaceholderSSvp">inputFieldsPlaceholder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the input field placeholder prior to providing an answer.<br/>
+The default text is <code>Your answer</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">inputFieldsPlaceholder</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV17submitButtonTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/submitButtonTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV17submitButtonTitleSSvp">submitButtonTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the caption on the button and indicates that the form can be submitted.<br/>
+The default text is <code>Submit</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">submitButtonTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV24alreadyFilledButtonTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alreadyFilledButtonTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV24alreadyFilledButtonTitleSSvp">alreadyFilledButtonTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the caption on the “already filled out” button when a form has been filled out already. This text will also be displayed immediately after successfully filling out and submitting the form.<br/>
+The default text is <code>Thank you for filling the form.</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">alreadyFilledButtonTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV25errorRequiredFieldMissingSSvp"></a>
+                    <a name="//apple_ref/swift/Property/errorRequiredFieldMissing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV25errorRequiredFieldMissingSSvp">errorRequiredFieldMissing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the error message shown when a <strong>required</strong> field has not been filled out.<br/>
+The default text is <code>Field can not be empty.</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">errorRequiredFieldMissing</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV16optionalAsteriksSSvp"></a>
+                    <a name="//apple_ref/swift/Property/optionalAsteriks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV16optionalAsteriksSSvp">optionalAsteriks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The fields in the form can either be optional or required. The required fields do not have any further indication, whereas the optional fields will have the following text at the end:<br/></p>
+
+<blockquote>
+<p>Example: when a form contains the question <i><b>Select your favorite color</b></i> it will become <i><b>Select your favorite color (optional)</b></i><br/></p>
+</blockquote>
+
+<p>The default text is <code>(optional)</code>and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">optionalAsteriks</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV17errorInvalidEmailSSvp"></a>
+                    <a name="//apple_ref/swift/Property/errorInvalidEmail" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV17errorInvalidEmailSSvp">errorInvalidEmail</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the error shown as an alert and contains the information that the email provided does not pass the validation test.<br/>
+The default text is <code>The email address is invalid.</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">errorInvalidEmail</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV15errorInvalidURLSSvp"></a>
+                    <a name="//apple_ref/swift/Property/errorInvalidURL" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV15errorInvalidURLSSvp">errorInvalidURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the error shown as an alert and contains the information that the URL provided does not pass the validation test.<br/>
+The default text is <code>This URL is invalid.</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">errorInvalidURL</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV31warningLeavingWithoutSubmittingSSvp"></a>
+                    <a name="//apple_ref/swift/Property/warningLeavingWithoutSubmitting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV31warningLeavingWithoutSubmittingSSvp">warningLeavingWithoutSubmitting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it.<br/>
+The default text is <code>Form was not submitted. Are you sure you want to leave?</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">warningLeavingWithoutSubmitting</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV38warningLeavingWithoutSubmittingDismissSSvp"></a>
+                    <a name="//apple_ref/swift/Property/warningLeavingWithoutSubmittingDismiss" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV38warningLeavingWithoutSubmittingDismissSSvp">warningLeavingWithoutSubmittingDismiss</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it. Selecting this option will allow the user to leave and all progress will be lost.<br/>
+The default text is <code>Yes</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">warningLeavingWithoutSubmittingDismiss</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15winguSDKContent15FormTranslationV37warningLeavingWithoutSubmittingCancelSSvp"></a>
+                    <a name="//apple_ref/swift/Property/warningLeavingWithoutSubmittingCancel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15winguSDKContent15FormTranslationV37warningLeavingWithoutSubmittingCancelSSvp">warningLeavingWithoutSubmittingCancel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Denotes the warning provided when user wants to leave the form without submitting it. Selecting this option will cancel the leaving action.<br/>
+The default text is <code>No</code> and is localized for all supported languages.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">warningLeavingWithoutSubmittingCancel</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://wingu.app" target="_blank" rel="external">wingu GmbH</a>. All rights reserved. (Last updated: 2019-03-27)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
